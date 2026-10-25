@@ -1,0 +1,126 @@
+{
+  "success": true,
+  "error": null,
+  "cases": [
+    {
+      "card": "Neutralize",
+      "patched": false,
+      "toggle": false,
+      "frames": 31,
+      "displayFrames": 31,
+      "duplicates": 31,
+      "displacement": 649.54724,
+      "damage": 3
+    },
+    {
+      "card": "PoisonedStab",
+      "patched": false,
+      "toggle": false,
+      "frames": 44,
+      "displayFrames": 44,
+      "duplicates": 44,
+      "displacement": 646.1424,
+      "damage": 4
+    },
+    {
+      "card": "Backstab",
+      "patched": false,
+      "toggle": false,
+      "frames": 40,
+      "displayFrames": 40,
+      "duplicates": 40,
+      "displacement": 1146.1797,
+      "damage": 11
+    },
+    {
+      "card": "Neutralize",
+      "patched": false,
+      "toggle": true,
+      "frames": 42,
+      "displayFrames": 42,
+      "duplicates": 42,
+      "displacement": 873.0921,
+      "damage": 3
+    },
+    {
+      "card": "PoisonedStab",
+      "patched": false,
+      "toggle": true,
+      "frames": 45,
+      "displayFrames": 45,
+      "duplicates": 45,
+      "displacement": 771.94653,
+      "damage": 4
+    },
+    {
+      "card": "Backstab",
+      "patched": false,
+      "toggle": true,
+      "frames": 37,
+      "displayFrames": 37,
+      "duplicates": 37,
+      "displacement": 1432.9185,
+      "damage": 11
+    },
+    {
+      "card": "Neutralize",
+      "patched": true,
+      "toggle": false,
+      "frames": 42,
+      "displayFrames": 42,
+      "duplicates": 0,
+      "displacement": 646.0747,
+      "damage": 3
+    },
+    {
+      "card": "PoisonedStab",
+      "patched": true,
+      "toggle": false,
+      "frames": 43,
+      "displayFrames": 43,
+      "duplicates": 0,
+      "displacement": 643.46234,
+      "damage": 4
+    },
+    {
+      "card": "Backstab",
+      "patched": true,
+      "toggle": false,
+      "frames": 41,
+      "displayFrames": 41,
+      "duplicates": 0,
+      "displacement": 1168.3411,
+      "damage": 11
+    },
+    {
+      "card": "Neutralize",
+      "patched": true,
+      "toggle": true,
+      "frames": 41,
+      "displayFrames": 41,
+      "duplicates": 0,
+      "displacement": 647.1964,
+      "damage": 3
+    },
+    {
+      "card": "PoisonedStab",
+      "patched": true,
+      "toggle": true,
+      "frames": 38,
+      "displayFrames": 38,
+      "duplicates": 0,
+      "displacement": 649.98334,
+      "damage": 4
+    },
+    {
+      "card": "Backstab",
+      "patched": true,
+      "toggle": true,
+      "frames": 39,
+      "displayFrames": 39,
+      "duplicates": 0,
+      "displacement": 1188.87,
+      "damage": 11
+    }
+  ]
+}

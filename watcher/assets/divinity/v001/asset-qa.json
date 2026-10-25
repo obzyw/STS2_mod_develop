@@ -1,0 +1,44 @@
+[
+  {
+    "topLeftAlpha": 0,
+    "nearOpaqueThreshold": 240,
+    "sampleStep": 8,
+    "transparentSamples": 14343,
+    "width": 1024,
+    "opaqueSamples": 0,
+    "partialSamples": 10233,
+    "height": 1536,
+    "file": "beautified-divinity-body-v002.png",
+    "sha256": "38D4A7B717009E84F60B6C4FE12F8FEECBCE22A54FAD995F59A4F3A1928E7597",
+    "pixelFormat": "Format32bppArgb",
+    "nearOpaqueSamples": 9519
+  },
+  {
+    "topLeftAlpha": 0,
+    "nearOpaqueThreshold": 240,
+    "sampleStep": 8,
+    "transparentSamples": 13929,
+    "width": 1024,
+    "opaqueSamples": 0,
+    "partialSamples": 10647,
+    "height": 1536,
+    "file": "beautified-divinity-body-v003.png",
+    "sha256": "7D507BAAC8270B9FE2CAB261033B849C512F61A258DF08B0E3473001D80A75CA",
+    "pixelFormat": "Format32bppArgb",
+    "nearOpaqueSamples": 10013
+  },
+  {
+    "topLeftAlpha": 0,
+    "nearOpaqueThreshold": 240,
+    "sampleStep": 8,
+    "transparentSamples": 15026,
+    "width": 1024,
+    "opaqueSamples": 0,
+    "partialSamples": 9550,
+    "height": 1536,
+    "file": "beautified-divinity-open-arms-concept.png",
+    "sha256": "9A51F26034B918ECD85014F3E8124F5436C90B5DA52DDB74496EFBE3BEE602AD",
+    "pixelFormat": "Format32bppArgb",
+    "nearOpaqueSamples": 7717
+  }
+]

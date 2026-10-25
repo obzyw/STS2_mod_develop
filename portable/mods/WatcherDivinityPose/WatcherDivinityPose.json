@@ -1,0 +1,10 @@
+{
+  "id": "WatcherDivinityPose",
+  "name": "Watcher divine open arms",
+  "author": "Local artwork and compatibility",
+  "version": "0.1.0",
+  "has_dll": true,
+  "has_pck": false,
+  "affects_gameplay": false,
+  "dependencies": [{"id": "YUWatcherForms"}]
+}

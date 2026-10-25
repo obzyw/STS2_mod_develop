@@ -1,0 +1,71 @@
+{
+    "scope":  "Same-seed native play counts and actual enemy HP deltas; excludes timing and full power/turn semantics.",
+    "control":  "<GAME>\\STS2ModCompat\\artifacts\\native-compatibility-20261022-232650\\compatibility-probe.json",
+    "candidate":  "<GAME>\\STS2ModCompat\\artifacts\\native-compatibility-20261022-232341\\compatibility-probe.json",
+    "cases":  [
+                  {
+                      "card":  "BansheesCry",
+                      "reuseCombat":  false,
+                      "equalNativePlayAndHp":  true,
+                      "candidateGoldCasts":  0,
+                      "controlGoldCasts":  0
+                  },
+                  {
+                      "card":  "Eradicate",
+                      "reuseCombat":  false,
+                      "equalNativePlayAndHp":  true,
+                      "candidateGoldCasts":  0,
+                      "controlGoldCasts":  0
+                  },
+                  {
+                      "card":  "EndOfDays",
+                      "reuseCombat":  false,
+                      "equalNativePlayAndHp":  true,
+                      "candidateGoldCasts":  0,
+                      "controlGoldCasts":  0
+                  },
+                  {
+                      "card":  "Neurosurge",
+                      "reuseCombat":  false,
+                      "equalNativePlayAndHp":  true,
+                      "candidateGoldCasts":  0,
+                      "controlGoldCasts":  0
+                  },
+                  {
+                      "card":  "ReaperForm",
+                      "reuseCombat":  false,
+                      "equalNativePlayAndHp":  true,
+                      "candidateGoldCasts":  0,
+                      "controlGoldCasts":  0
+                  },
+                  {
+                      "card":  "Hang",
+                      "reuseCombat":  true,
+                      "equalNativePlayAndHp":  true,
+                      "candidateGoldCasts":  1,
+                      "controlGoldCasts":  0
+                  },
+                  {
+                      "card":  "Hang",
+                      "reuseCombat":  false,
+                      "equalNativePlayAndHp":  true,
+                      "candidateGoldCasts":  1,
+                      "controlGoldCasts":  0
+                  },
+                  {
+                      "card":  "SoulStorm",
+                      "reuseCombat":  false,
+                      "equalNativePlayAndHp":  true,
+                      "candidateGoldCasts":  1,
+                      "controlGoldCasts":  0
+                  },
+                  {
+                      "card":  "Squeeze",
+                      "reuseCombat":  false,
+                      "equalNativePlayAndHp":  true,
+                      "candidateGoldCasts":  1,
+                      "controlGoldCasts":  0
+                  }
+              ],
+    "success":  true
+}

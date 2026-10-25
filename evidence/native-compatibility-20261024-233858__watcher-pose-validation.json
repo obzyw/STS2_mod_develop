@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "error": null,
+  "expectedCases": 3,
+  "cases": [
+    {
+      "id": "divinity-idle",
+      "haloAlpha": 1,
+      "originalBodyVisible": true
+    },
+    {
+      "id": "attack-resume",
+      "damage": 18
+    },
+    {
+      "id": "stance-exit",
+      "restored": true
+    }
+  ]
+}

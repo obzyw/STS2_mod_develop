@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>STS2CompatProbe</AssemblyName>
+    <GamePath Condition="'$(GamePath)' == ''">$(MSBuildThisFileDirectory)../..</GamePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="sts2"><HintPath>$(GamePath)/data_sts2_windows_x86_64/sts2.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="GodotSharp"><HintPath>$(GamePath)/data_sts2_windows_x86_64/GodotSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GamePath)/data_sts2_windows_x86_64/0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="NecrobinderVfx"><HintPath>$(GamePath)/../../workshop/content/2868840/3821345574/NecrobinderVfx.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

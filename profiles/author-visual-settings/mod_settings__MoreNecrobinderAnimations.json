@@ -1,0 +1,19 @@
+{
+  "Enabled": true,
+  "ScourgeEnabled": true,
+  "GraveWardenEnabled": true,
+  "InvokeEnabled": true,
+  "FriendshipEnabled": true,
+  "NegativePulseEnabled": true,
+  "NeurosurgeEnabled": true,
+  "DeathbringerEnabled": true,
+  "DirgeEnabled": true,
+  "CaptureSpiritEnabled": true,
+  "EndOfDaysEnabled": true,
+  "BansheesCryEnabled": true,
+  "UnleashEnabled": true,
+  "ProtectorEnabled": true,
+  "LethalityEnabled": true,
+  "ReaperFormEnabled": true,
+  "OstySlamChance": 59
+}

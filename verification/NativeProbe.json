@@ -1,0 +1,14 @@
+{
+  "id": "STS2CompatProbe",
+  "name": "STS2 compatibility verification (temporary)",
+  "author": "Local verification",
+  "version": "0.1.0",
+  "has_dll": true,
+  "has_pck": false,
+  "affects_gameplay": false,
+  "dependencies": [
+    {"id": "NecrobinderVfx"},
+    {"id": "DebilitateRedKnife"},
+    {"id": "MoreNecrobinderAnimations"}
+  ]
+}

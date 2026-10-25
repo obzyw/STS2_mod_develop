@@ -1,0 +1,14 @@
+{
+  "Enabled": true,
+  "AdultAppearance": true,
+  "EnableHurtSkins": true,
+  "HurtPercent": 50,
+  "CriticalPercent": 25,
+  "CriticalMode": "Percent",
+  "CriticalHp": 1,
+  "ShowDevaEffects": true,
+  "PolishAnimations": true,
+  "DivinityActions": true,
+  "PollSeconds": 0.1,
+  "LogTransitions": false
+}

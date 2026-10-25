@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
+    <DefineConstants>$(DefineConstants);INTEGRATED</DefineConstants>
+    <GamePath Condition="'$(GamePath)'==''">$(MSBuildThisFileDirectory)../..</GamePath>
+    <ModConfigPath Condition="'$(ModConfigPath)'==''">$(GamePath)/../../workshop/content/2868840/3747557003/ModConfig.dll</ModConfigPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="sts2"><HintPath>$(GamePath)/data_sts2_windows_x86_64/sts2.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="GodotSharp"><HintPath>$(GamePath)/data_sts2_windows_x86_64/GodotSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GamePath)/data_sts2_windows_x86_64/0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="ModConfig"><HintPath>$(ModConfigPath)</HintPath><Private>false</Private></Reference>
+    <Compile Include="../compatibility/Entry.cs" Link="Silent/Movement.cs" />
+    <Compile Include="../effects/*.cs" Link="Silent/%(Filename)%(Extension)" />
+    <Compile Include="../watcher/pose/Entry.cs" Link="Watcher/Pose.cs" />
+    <Compile Include="../watcher/transitions/Entry.cs" Link="Watcher/Transitions.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-25",
+  "status": "enabled-user-reports-no-current-flicker",
+  "userFeedbackDate": "2026-10-25",
+  "userFeedback": "目前未再出现黑闪",
+  "fpsLimit": 165,
+  "vsync": "on",
+  "fullscreen": true,
+  "renderer": "D3D12 Forward+",
+  "settingsReport": "artifacts/display-settings-20261025-002736-000/report.json",
+  "validation": "artifacts/watcher-menu-20261025-002825/menu-result.json",
+  "diagnostic": "artifacts/watcher-menu-20261025-002408/display-result.json",
+  "rootCauseConfirmed": false,
+  "blackFlickerReproduced": false,
+  "allModsRetained": true,
+  "rollback": "scripts/Set-DisplayStability.ps1 -RollbackFrom 'artifacts/display-settings-20261025-002736-000/report.json'"
+}

@@ -1,0 +1,220 @@
+{
+  "success": true,
+  "control": false,
+  "error": null,
+  "scope": "Real native AutoPlay, one play/finish, actual effect allocations, 26 registered-model routing checks. Three companion mods and all other subscriptions remain loaded.",
+  "cases": [
+    {
+      "card": "BansheesCry",
+      "shared": true,
+      "reuseCombat": false,
+      "before": 1,
+      "after": 1,
+      "goldCasts": 0,
+      "companionAllocated": true,
+      "goldSharedAllocated": false,
+      "effectAllocations": {
+        "MoreNecrobinderAnimations.ClipPlayer": 1,
+        "MoreNecrobinderAnimations.BansheeEffect": 1
+      },
+      "hpBefore": [
+        10000,
+        10000,
+        10000
+      ],
+      "hpAfter": [
+        9967,
+        9967,
+        9967
+      ]
+    },
+    {
+      "card": "Eradicate",
+      "shared": true,
+      "reuseCombat": false,
+      "before": 1,
+      "after": 1,
+      "goldCasts": 0,
+      "companionAllocated": true,
+      "goldSharedAllocated": false,
+      "effectAllocations": {
+        "DebilitateRedKnife.EradicateV1.EradicateSequenceV1": 1
+      },
+      "hpBefore": [
+        10000,
+        10000,
+        10000
+      ],
+      "hpAfter": [
+        10000,
+        9780,
+        10000
+      ]
+    },
+    {
+      "card": "EndOfDays",
+      "shared": true,
+      "reuseCombat": false,
+      "before": 1,
+      "after": 1,
+      "goldCasts": 0,
+      "companionAllocated": true,
+      "goldSharedAllocated": false,
+      "effectAllocations": {
+        "MoreNecrobinderAnimations.ClipPlayer": 6,
+        "MoreNecrobinderAnimations.EndOfDaysEffect": 1,
+        "DebilitateRedKnife.EndOfDaysV1.EndOfDaysCarrier": 1
+      },
+      "hpBefore": [
+        10000,
+        10000,
+        10000
+      ],
+      "hpAfter": [
+        10000,
+        10000,
+        10000
+      ]
+    },
+    {
+      "card": "Neurosurge",
+      "shared": true,
+      "reuseCombat": false,
+      "before": 1,
+      "after": 1,
+      "goldCasts": 0,
+      "companionAllocated": true,
+      "goldSharedAllocated": false,
+      "effectAllocations": {
+        "DebilitateRedKnife.NeurosurgeV5.NeuroSequenceV5": 1,
+        "MoreNecrobinderAnimations.ClipPlayer": 2
+      },
+      "hpBefore": [
+        10000,
+        10000,
+        10000
+      ],
+      "hpAfter": [
+        10000,
+        10000,
+        10000
+      ]
+    },
+    {
+      "card": "ReaperForm",
+      "shared": true,
+      "reuseCombat": false,
+      "before": 1,
+      "after": 1,
+      "goldCasts": 0,
+      "companionAllocated": true,
+      "goldSharedAllocated": false,
+      "effectAllocations": {
+        "MoreNecrobinderAnimations.ClipPlayer": 1,
+        "MoreNecrobinderAnimations.ReaperFormEffect": 1
+      },
+      "hpBefore": [
+        10000,
+        10000,
+        10000
+      ],
+      "hpAfter": [
+        10000,
+        10000,
+        10000
+      ]
+    },
+    {
+      "card": "Hang",
+      "shared": false,
+      "reuseCombat": true,
+      "before": 1,
+      "after": 1,
+      "goldCasts": 1,
+      "companionAllocated": false,
+      "goldSharedAllocated": false,
+      "effectAllocations": {
+        "NecrobinderVfx.NativeHang": 1
+      },
+      "hpBefore": [
+        10000,
+        10000,
+        10000
+      ],
+      "hpAfter": [
+        10000,
+        9990,
+        10000
+      ]
+    },
+    {
+      "card": "Hang",
+      "shared": false,
+      "reuseCombat": false,
+      "before": 1,
+      "after": 1,
+      "goldCasts": 1,
+      "companionAllocated": false,
+      "goldSharedAllocated": false,
+      "effectAllocations": {
+        "NecrobinderVfx.NativeHang": 1
+      },
+      "hpBefore": [
+        10000,
+        10000,
+        10000
+      ],
+      "hpAfter": [
+        10000,
+        9990,
+        10000
+      ]
+    },
+    {
+      "card": "SoulStorm",
+      "shared": false,
+      "reuseCombat": false,
+      "before": 1,
+      "after": 1,
+      "goldCasts": 1,
+      "companionAllocated": false,
+      "goldSharedAllocated": false,
+      "effectAllocations": {
+        "NecrobinderVfx.NativeSoulStorm": 1
+      },
+      "hpBefore": [
+        10000,
+        10000,
+        10000
+      ],
+      "hpAfter": [
+        10000,
+        9996,
+        10000
+      ]
+    },
+    {
+      "card": "Squeeze",
+      "shared": false,
+      "reuseCombat": false,
+      "before": 1,
+      "after": 1,
+      "goldCasts": 1,
+      "companionAllocated": false,
+      "goldSharedAllocated": false,
+      "effectAllocations": {
+        "NecrobinderVfx.NativeSqueeze": 1
+      },
+      "hpBefore": [
+        10000,
+        10000,
+        10000
+      ],
+      "hpAfter": [
+        10000,
+        9970,
+        10000
+      ]
+    }
+  ]
+}

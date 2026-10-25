@@ -1,0 +1,46 @@
+[
+  {
+    "path": "portable/mods/SilentMovementCompat/SilentMovementCompat.dll",
+    "sha256": "61638A911582BE0156DA41FEAD0ADEE77D6F9633C512B9A6CA2081C9C487A982"
+  },
+  {
+    "path": "portable/mods/SilentMovementCompat/SilentMovementCompat.json",
+    "sha256": "C67CB8DBD92BA29099A39DFBB3BCBA9940A2DA71EC7F330840E10B360FD0D3DB"
+  },
+  {
+    "path": "portable/mods/SilentEffectsCompat/SilentEffectsCompat.dll",
+    "sha256": "2C180C01ACD5861DC2CFB2007F71E7C6047487ECE45739EE803557AF269381C7"
+  },
+  {
+    "path": "portable/mods/SilentEffectsCompat/SilentEffectsCompat.json",
+    "sha256": "DC99F4188BC6CA8FB218374545FA6C923FE04C09EF0AABDF77E4391BE8E56B2B"
+  },
+  {
+    "path": "portable/mods/WatcherDivinityPose/arms.png",
+    "sha256": "38D4A7B717009E84F60B6C4FE12F8FEECBCE22A54FAD995F59A4F3A1928E7597"
+  },
+  {
+    "path": "portable/mods/WatcherDivinityPose/DivinityPose.gd",
+    "sha256": "BAD692A36243657589AA8CC18FDA8682227EAE90FF38F38040E81B240698C325"
+  },
+  {
+    "path": "portable/mods/WatcherDivinityPose/WatcherDivinityPose.dll",
+    "sha256": "28CC0B900DCD39FF536332B5FF0C926AD0A929D18D31BC21F78531375D42E71C"
+  },
+  {
+    "path": "portable/mods/WatcherDivinityPose/WatcherDivinityPose.json",
+    "sha256": "03FBB4CD7B6E05C4DDEECE9D3FC16133A0145BCEB509FA81EE7711F5EE960A08"
+  },
+  {
+    "path": "portable/mods/WatcherStanceTransitions/StanceTransition.gd",
+    "sha256": "139B9977F92E0D3620C59CFDD91FBCD4DB83E02F0316EB6ACF6D6E45639811EE"
+  },
+  {
+    "path": "portable/mods/WatcherStanceTransitions/WatcherStanceTransitions.dll",
+    "sha256": "5E49E304ADD5412B3E85BA5DC1F918CE2BFB92EC326FEC06A0E45C5B8A8C1DA7"
+  },
+  {
+    "path": "portable/mods/WatcherStanceTransitions/WatcherStanceTransitions.json",
+    "sha256": "ACFFDE5C179BCC98729F7137A4A7839C75BAC3228318A5C40A08347E7569FBD8"
+  }
+]

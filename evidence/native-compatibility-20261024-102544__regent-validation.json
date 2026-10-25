@@ -1,0 +1,701 @@
+{
+  "success": true,
+  "error": null,
+  "settingsOnly": true,
+  "expectedCases": 10,
+  "cases": [
+    {
+      "id": "coexist-BlackHole",
+      "name": "BlackHole",
+      "fxOn": true,
+      "lowHealth": false,
+      "allowedAnimation": true,
+      "rfScenes": [
+        "res://RegentFX/scenes/vfx/Blackhole.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn"
+      ],
+      "raCount": 1,
+      "positions": [
+        {
+          "node": "RegentBlackHole",
+          "scene": "",
+          "visible": true,
+          "position": "(479.09937, 739.5023)"
+        },
+        {
+          "node": "Blackhole",
+          "scene": "res://RegentFX/scenes/vfx/Blackhole.tscn",
+          "visible": true,
+          "position": "(479.09937, 561.5023)"
+        },
+        {
+          "node": "vfx_common_specks_bright",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+          "visible": true,
+          "position": "(1148, 666)"
+        },
+        {
+          "node": "vfx_common_specks",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+          "visible": true,
+          "position": "(1148, 666)"
+        },
+        {
+          "node": "vfx_common_glow",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+          "visible": true,
+          "position": "(1148, 666)"
+        },
+        {
+          "node": "vfx_common_specks_bright",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+          "visible": true,
+          "position": "(1437, 666)"
+        },
+        {
+          "node": "vfx_common_specks",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+          "visible": true,
+          "position": "(1437, 666)"
+        },
+        {
+          "node": "vfx_common_glow",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+          "visible": true,
+          "position": "(1437, 666)"
+        },
+        {
+          "node": "vfx_common_specks_bright",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+          "visible": true,
+          "position": "(1725.682, 658.156)"
+        },
+        {
+          "node": "vfx_common_specks",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+          "visible": true,
+          "position": "(1725.682, 658.156)"
+        },
+        {
+          "node": "vfx_common_glow",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+          "visible": true,
+          "position": "(1725.682, 658.156)"
+        }
+      ],
+      "damage": [
+        3,
+        3,
+        3
+      ],
+      "body": ""
+    },
+    {
+      "id": "coexist-Genesis",
+      "name": "Genesis",
+      "fxOn": true,
+      "lowHealth": false,
+      "allowedAnimation": true,
+      "rfScenes": [
+        "res://RegentFX/scenes/vfx/genesis.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/distortions/vfx_outward_screen_distortion_ellipse.tscn"
+      ],
+      "raCount": 1,
+      "positions": [
+        {
+          "node": "RegentGenesis",
+          "scene": "",
+          "visible": true,
+          "position": "(480, 740)"
+        },
+        {
+          "node": "Genesis",
+          "scene": "res://RegentFX/scenes/vfx/genesis.tscn",
+          "visible": true,
+          "position": "(480, 562)"
+        },
+        {
+          "node": "BackBufferCopy",
+          "scene": "res://RegentFX/scenes/vfx/distortions/vfx_outward_screen_distortion_ellipse.tscn",
+          "visible": true,
+          "position": "(480, 562)"
+        }
+      ],
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "body": ""
+    },
+    {
+      "id": "coexist-PillarOfCreation",
+      "name": "PillarOfCreation",
+      "fxOn": true,
+      "lowHealth": false,
+      "allowedAnimation": true,
+      "rfScenes": [
+        "res://RegentFX/scenes/vfx/pillar.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/p_burst.tscn"
+      ],
+      "raCount": 1,
+      "positions": [
+        {
+          "node": "Pillar",
+          "scene": "res://RegentFX/scenes/vfx/pillar.tscn",
+          "visible": true,
+          "position": "(350, 707.3071)"
+        },
+        {
+          "node": "RegentPillarOfCreation",
+          "scene": "",
+          "visible": true,
+          "position": "(480, 740)"
+        },
+        {
+          "node": "PBurst",
+          "scene": "res://RegentFX/scenes/vfx/p_burst.tscn",
+          "visible": true,
+          "position": "(350, 690)"
+        }
+      ],
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "body": ""
+    },
+    {
+      "id": "coexist-SpectrumShift",
+      "name": "SpectrumShift",
+      "fxOn": true,
+      "lowHealth": false,
+      "allowedAnimation": true,
+      "rfScenes": [
+        "res://RegentFX/scenes/vfx/spectrum_shift.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn"
+      ],
+      "raCount": 1,
+      "positions": [
+        {
+          "node": "SpectrumShift",
+          "scene": "res://RegentFX/scenes/vfx/spectrum_shift.tscn",
+          "visible": true,
+          "position": "(480, 562)"
+        },
+        {
+          "node": "RegentSpectrumShift",
+          "scene": "",
+          "visible": true,
+          "position": "(480, 740)"
+        }
+      ],
+      "damage": [
+        0,
+        0,
+        0
+      ],
+      "body": ""
+    },
+    {
+      "id": "priority-Comet",
+      "name": "Comet",
+      "fxOn": true,
+      "lowHealth": false,
+      "allowedAnimation": false,
+      "rfScenes": [
+        "res://RegentFX/scenes/vfx/comet.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn"
+      ],
+      "raCount": 0,
+      "positions": [
+        {
+          "node": "Comet",
+          "scene": "res://RegentFX/scenes/vfx/comet.tscn",
+          "visible": true,
+          "position": "(1438.894, 712.7187)"
+        }
+      ],
+      "damage": [
+        0,
+        33,
+        0
+      ],
+      "body": ""
+    },
+    {
+      "id": "priority-CrescentSpear",
+      "name": "CrescentSpear",
+      "fxOn": true,
+      "lowHealth": false,
+      "allowedAnimation": false,
+      "rfScenes": [
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/crescent_spear.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn"
+      ],
+      "raCount": 0,
+      "positions": [],
+      "damage": [
+        0,
+        12,
+        0
+      ],
+      "body": ""
+    },
+    {
+      "id": "priority-DyingStar",
+      "name": "DyingStar",
+      "fxOn": true,
+      "lowHealth": false,
+      "allowedAnimation": false,
+      "rfScenes": [
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/dying_star.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn"
+      ],
+      "raCount": 0,
+      "positions": [
+        {
+          "node": "DyingStar",
+          "scene": "res://RegentFX/scenes/vfx/dying_star.tscn",
+          "visible": true,
+          "position": "(1436.894, 663.3853)"
+        }
+      ],
+      "damage": [
+        9,
+        9,
+        9
+      ],
+      "body": ""
+    },
+    {
+      "id": "priority-SevenStars",
+      "name": "SevenStars",
+      "fxOn": true,
+      "lowHealth": false,
+      "allowedAnimation": false,
+      "rfScenes": [
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/Blade2.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/Blade2.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/Blade2.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/Blade2.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/Blade2.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/Blade2.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/Blade2.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/Blade2.tscn",
+        "res://RegentFX/scenes/Blade1.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn"
+      ],
+      "raCount": 0,
+      "positions": [],
+      "damage": [
+        49,
+        49,
+        49
+      ],
+      "body": ""
+    },
+    {
+      "id": "priority-AstralPulse",
+      "name": "AstralPulse",
+      "fxOn": true,
+      "lowHealth": false,
+      "allowedAnimation": false,
+      "rfScenes": [
+        "res://RegentFX/scenes/vfx/astral_pulse.tscn",
+        "res://RegentFX/scenes/vfx/distortions/vfx_outward_screen_distortion_ellipse.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn"
+      ],
+      "raCount": 0,
+      "positions": [
+        {
+          "node": "AstralPulse",
+          "scene": "res://RegentFX/scenes/vfx/astral_pulse.tscn",
+          "visible": true,
+          "position": "(480, 562)"
+        },
+        {
+          "node": "BackBufferCopy",
+          "scene": "res://RegentFX/scenes/vfx/distortions/vfx_outward_screen_distortion_ellipse.tscn",
+          "visible": true,
+          "position": "(456.26825, 550.06573)"
+        }
+      ],
+      "damage": [
+        12,
+        12,
+        12
+      ],
+      "body": ""
+    },
+    {
+      "id": "skin-low-health-BlackHole",
+      "name": "BlackHole",
+      "fxOn": true,
+      "lowHealth": true,
+      "allowedAnimation": true,
+      "rfScenes": [
+        "res://RegentFX/scenes/vfx/Blackhole.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+        "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn"
+      ],
+      "raCount": 1,
+      "positions": [
+        {
+          "node": "RegentBlackHole",
+          "scene": "",
+          "visible": true,
+          "position": "(480.59576, 739.822)"
+        },
+        {
+          "node": "Blackhole",
+          "scene": "res://RegentFX/scenes/vfx/Blackhole.tscn",
+          "visible": true,
+          "position": "(480.59576, 561.822)"
+        },
+        {
+          "node": "vfx_common_specks_bright",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+          "visible": true,
+          "position": "(1148, 666)"
+        },
+        {
+          "node": "vfx_common_specks",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+          "visible": true,
+          "position": "(1148, 666)"
+        },
+        {
+          "node": "vfx_common_glow",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+          "visible": true,
+          "position": "(1148, 666)"
+        },
+        {
+          "node": "vfx_common_specks_bright",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+          "visible": true,
+          "position": "(1437, 666)"
+        },
+        {
+          "node": "vfx_common_specks",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+          "visible": true,
+          "position": "(1437, 666)"
+        },
+        {
+          "node": "vfx_common_glow",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+          "visible": true,
+          "position": "(1437, 666)"
+        },
+        {
+          "node": "vfx_common_specks_bright",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+          "visible": true,
+          "position": "(1725.682, 658.156)"
+        },
+        {
+          "node": "vfx_common_specks",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_specks.tscn",
+          "visible": true,
+          "position": "(1725.682, 658.156)"
+        },
+        {
+          "node": "vfx_common_glow",
+          "scene": "res://RegentFX/scenes/vfx/common/vfx_common_glow.tscn",
+          "visible": true,
+          "position": "(1725.682, 658.156)"
+        }
+      ],
+      "damage": [
+        3,
+        3,
+        3
+      ],
+      "body": ""
+    }
+  ]
+}

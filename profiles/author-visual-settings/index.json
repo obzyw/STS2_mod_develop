@@ -1,0 +1,47 @@
+[
+  {
+    "root": "appdata",
+    "relativePath": "mod_configs/DebilitateRedKnife.animations.json",
+    "file": "mod_configs__DebilitateRedKnife.animations.json"
+  },
+  {
+    "root": "appdata",
+    "relativePath": "mod_settings/MoreNecrobinderAnimations.json",
+    "file": "mod_settings__MoreNecrobinderAnimations.json"
+  },
+  {
+    "root": "appdata",
+    "relativePath": "mod_settings/MoreSilentAnimations.json",
+    "file": "mod_settings__MoreSilentAnimations.json"
+  },
+  {
+    "root": "appdata",
+    "relativePath": "MeleeAttack_settings.json",
+    "file": "MeleeAttack_settings.json"
+  },
+  {
+    "root": "appdata",
+    "relativePath": "mod_settings/RegentAnimations.json",
+    "file": "mod_settings__RegentAnimations.json"
+  },
+  {
+    "root": "appdata",
+    "relativePath": "WatcherReimagined/settings.json",
+    "file": "WatcherReimagined__settings.json"
+  },
+  {
+    "root": "appdata",
+    "relativePath": "mods/YUWatcherForms/settings.json",
+    "file": "mods__YUWatcherForms__settings.json"
+  },
+  {
+    "root": "appdata",
+    "relativePath": "watcher_mod_settings.json",
+    "file": "watcher_mod_settings.json"
+  },
+  {
+    "root": "localappdata",
+    "relativePath": "RegentFX/ritsu_interop_state.json",
+    "file": "RegentFX__ritsu_interop_state.json"
+  }
+]

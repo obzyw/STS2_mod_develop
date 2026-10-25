@@ -1,0 +1,18 @@
+{
+  "SchemaVersion": 2,
+  "Cards": {
+    "Debilitate": "Expansion",
+    "EndOfDays": "Expansion, MoreAnimations, Original",
+    "Unleash": "MoreAnimations",
+    "Protector": "MoreAnimations",
+    "Bodyguard": "Expansion",
+    "Scourge": "Expansion, MoreAnimations",
+    "Eradicate": "Expansion",
+    "Reap": "Expansion",
+    "Fear": "Expansion",
+    "EnfeeblingTouch": "Expansion, Original",
+    "Defy": "Expansion, Original",
+    "Neurosurge": "Expansion, MoreAnimations, Original"
+  },
+  "DoomGrasp": true
+}

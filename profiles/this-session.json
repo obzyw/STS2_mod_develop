@@ -1,0 +1,6 @@
+{
+  "necro.enabled": true, "necro.gold": true,
+  "silent.enabled": true, "silent.movement": true, "silent.effects": true,
+  "regent.enabled": true, "regent.effects": true,
+  "watcher.enabled": true, "watcher.effects_only": true, "watcher.pose": true, "watcher.transitions": true
+}

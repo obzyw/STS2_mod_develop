@@ -1,0 +1,12 @@
+{
+  "id": "STS2UnifiedCompat",
+  "name": "角色动画与特效整合 / Character VFX Compatibility",
+  "author": "obzyw",
+  "version": "0.2.0",
+  "description": "按角色开启兼容与动画。首次安装各角色默认关闭；修改开关后重启游戏。需要对应角色的原作者Mod，本包不包含其素材或代码。",
+  "min_game_version": "0.111.0",
+  "has_dll": true,
+  "has_pck": false,
+  "affects_gameplay": true,
+  "dependencies": [{"id": "ModConfig"}]
+}

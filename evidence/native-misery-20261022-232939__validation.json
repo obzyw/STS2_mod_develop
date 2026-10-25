@@ -1,0 +1,614 @@
+{
+  "success": true,
+  "error": null,
+  "gameVersion": "0.111.0",
+  "modVersion": "0.3.2",
+  "assemblyVersion": "0.3.2.0",
+  "selectedCard": "misery",
+  "captureImageFormat": "png",
+  "pngKeyframeIntervalSeconds": 0.5,
+  "capture": "Lossless PNG keyframes of the original viewport pixels, without resize, at most one image per0.5 seconds. PNG encoders never block card-specific per-frame observation; a full queue skips the image, not its metrics. Existing native assertions and default JPEG sampling remain unchanged. Continuous/JPEG descriptions in captureAdjustment apply only to default capture, not PNG keyframes.",
+  "captureAdjustment": null,
+  "cleanup": {
+    "settledInLiveCombat": {
+      "layerContainers": 1,
+      "layerDescendants": 0,
+      "effectNodes": 0,
+      "names": []
+    },
+    "afterSceneRemoval": {
+      "layerContainers": 0,
+      "layerDescendants": 0,
+      "effectNodes": 0,
+      "names": []
+    },
+    "directorReferences": {
+      "drags": 0,
+      "pending": 0,
+      "casts": 0,
+      "oblivionMarks": 0,
+      "sacrificeGuards": 0,
+      "seanceScopes": 0,
+      "seanceCommands": 0,
+      "transfigureScopes": 0,
+      "transfigureCommands": 0,
+      "undeathScopes": 0,
+      "undeathCommands": 0,
+      "undeathPreviews": 0,
+      "callOfTheVoidEffects": 0,
+      "callOfTheVoidCommands": 0,
+      "callOfTheVoidCards": 0,
+      "demesneEffects": 0,
+      "devourLifeEffects": 0,
+      "devourLifeCommands": 0,
+      "devourLifeOrigins": 0,
+      "devourLifePendingGates": 0,
+      "devourLifeCardLeases": 0,
+      "necroMasteryEffects": 0,
+      "necroMasteryCommands": 0,
+      "necroMasteryActivationCommands": 0,
+      "necroMasteryActivationGates": 0,
+      "necroMasteryActivationPlays": 0,
+      "neurosurgeEffects": 0,
+      "neurosurgeCommands": 0,
+      "reaperFormEffects": 0,
+      "reaperFormCommands": 0,
+      "sentryModeEffects": 0,
+      "sentryModeCommands": 0,
+      "sentryModeCards": 0,
+      "spiritOfAshEffects": 0,
+      "spiritOfAshCommands": 0
+    },
+    "scope": "This mod\u0027s effect nodes and director dictionaries only. Engine-global resource shutdown reports are outside this assertion."
+  },
+  "bodyScenarioSelection": [],
+  "bodySizeScenarios": [],
+  "cases": [
+    {
+      "name": "04-misery",
+      "card": "MISERY",
+      "expectedHits": 1,
+      "hits": 1,
+      "beforePlays": 1,
+      "afterPlays": 1,
+      "recipientBurstCalls": 2,
+      "directorPowerChanges": 6,
+      "before": [
+        {
+          "index": 0,
+          "monster": "CORPSE_SLUG",
+          "hp": 1000,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "monster": "CORPSE_SLUG",
+          "hp": 1000,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            },
+            {
+              "id": "WEAK_POWER",
+              "amount": 2
+            },
+            {
+              "id": "VULNERABLE_POWER",
+              "amount": 2
+            },
+            {
+              "id": "DOOM_POWER",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "monster": "CORPSE_SLUG",
+          "hp": 1000,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            }
+          ]
+        }
+      ],
+      "after": [
+        {
+          "index": 0,
+          "monster": "CORPSE_SLUG",
+          "hp": 1000,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            },
+            {
+              "id": "WEAK_POWER",
+              "amount": 2
+            },
+            {
+              "id": "VULNERABLE_POWER",
+              "amount": 2
+            },
+            {
+              "id": "DOOM_POWER",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "monster": "CORPSE_SLUG",
+          "hp": 990,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            },
+            {
+              "id": "WEAK_POWER",
+              "amount": 2
+            },
+            {
+              "id": "VULNERABLE_POWER",
+              "amount": 2
+            },
+            {
+              "id": "DOOM_POWER",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "monster": "CORPSE_SLUG",
+          "hp": 1000,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            },
+            {
+              "id": "WEAK_POWER",
+              "amount": 2
+            },
+            {
+              "id": "VULNERABLE_POWER",
+              "amount": 2
+            },
+            {
+              "id": "DOOM_POWER",
+              "amount": 5
+            }
+          ]
+        }
+      ],
+      "shouldSave": false,
+      "replayEnabled": false
+    },
+    {
+      "name": "04b-misery-negative",
+      "card": "MISERY",
+      "expectedHits": 1,
+      "hits": 1,
+      "beforePlays": 1,
+      "afterPlays": 1,
+      "recipientBurstCalls": 2,
+      "directorPowerChanges": 2,
+      "before": [
+        {
+          "index": 0,
+          "monster": "CORPSE_SLUG",
+          "hp": 1000,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            },
+            {
+              "id": "STRENGTH_POWER",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "monster": "CORPSE_SLUG",
+          "hp": 1000,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            },
+            {
+              "id": "STRENGTH_POWER",
+              "amount": -2
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "monster": "CORPSE_SLUG",
+          "hp": 1000,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            },
+            {
+              "id": "STRENGTH_POWER",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "after": [
+        {
+          "index": 0,
+          "monster": "CORPSE_SLUG",
+          "hp": 1000,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            },
+            {
+              "id": "STRENGTH_POWER",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "monster": "CORPSE_SLUG",
+          "hp": 993,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            },
+            {
+              "id": "STRENGTH_POWER",
+              "amount": -2
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "monster": "CORPSE_SLUG",
+          "hp": 1000,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            },
+            {
+              "id": "STRENGTH_POWER",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "shouldSave": false,
+      "replayEnabled": false
+    },
+    {
+      "name": "04c-misery-no-debuff",
+      "card": "MISERY",
+      "expectedHits": 1,
+      "hits": 1,
+      "beforePlays": 1,
+      "afterPlays": 1,
+      "recipientBurstCalls": 0,
+      "directorPowerChanges": 0,
+      "before": [
+        {
+          "index": 0,
+          "monster": "CORPSE_SLUG",
+          "hp": 1000,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            },
+            {
+              "id": "STRENGTH_POWER",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "monster": "CORPSE_SLUG",
+          "hp": 1000,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "monster": "CORPSE_SLUG",
+          "hp": 1000,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            },
+            {
+              "id": "STRENGTH_POWER",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "after": [
+        {
+          "index": 0,
+          "monster": "CORPSE_SLUG",
+          "hp": 1000,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            },
+            {
+              "id": "STRENGTH_POWER",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "monster": "CORPSE_SLUG",
+          "hp": 993,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "monster": "CORPSE_SLUG",
+          "hp": 1000,
+          "powers": [
+            {
+              "id": "RAVENOUS_POWER",
+              "amount": 4
+            },
+            {
+              "id": "STRENGTH_POWER",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "shouldSave": false,
+      "replayEnabled": false
+    }
+  ],
+  "events": [
+    {
+      "kind": "before-play",
+      "testCase": "04-misery",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 35369080,
+      "power": null,
+      "amount": 0,
+      "ticks": 72834
+    },
+    {
+      "kind": "hit",
+      "testCase": "04-misery",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 35369080,
+      "power": null,
+      "amount": 0,
+      "ticks": 72896
+    },
+    {
+      "kind": "power",
+      "testCase": "04-misery",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 63402996,
+      "power": "WEAK_POWER",
+      "amount": 2,
+      "ticks": 73061
+    },
+    {
+      "kind": "recipient-burst",
+      "testCase": "04-misery",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 63402996,
+      "power": null,
+      "amount": 0,
+      "ticks": 73061
+    },
+    {
+      "kind": "power",
+      "testCase": "04-misery",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 63402996,
+      "power": "VULNERABLE_POWER",
+      "amount": 2,
+      "ticks": 73090
+    },
+    {
+      "kind": "power",
+      "testCase": "04-misery",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 63402996,
+      "power": "DOOM_POWER",
+      "amount": 5,
+      "ticks": 73117
+    },
+    {
+      "kind": "power",
+      "testCase": "04-misery",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 46323232,
+      "power": "WEAK_POWER",
+      "amount": 2,
+      "ticks": 73158
+    },
+    {
+      "kind": "recipient-burst",
+      "testCase": "04-misery",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 46323232,
+      "power": null,
+      "amount": 0,
+      "ticks": 73158
+    },
+    {
+      "kind": "power",
+      "testCase": "04-misery",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 46323232,
+      "power": "VULNERABLE_POWER",
+      "amount": 2,
+      "ticks": 73208
+    },
+    {
+      "kind": "power",
+      "testCase": "04-misery",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 46323232,
+      "power": "DOOM_POWER",
+      "amount": 5,
+      "ticks": 73258
+    },
+    {
+      "kind": "after-play",
+      "testCase": "04-misery",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 35369080,
+      "power": null,
+      "amount": 0,
+      "ticks": 73263
+    },
+    {
+      "kind": "before-play",
+      "testCase": "04b-misery-negative",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 35369080,
+      "power": null,
+      "amount": 0,
+      "ticks": 78931
+    },
+    {
+      "kind": "hit",
+      "testCase": "04b-misery-negative",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 35369080,
+      "power": null,
+      "amount": 0,
+      "ticks": 78963
+    },
+    {
+      "kind": "power",
+      "testCase": "04b-misery-negative",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 63402996,
+      "power": "STRENGTH_POWER",
+      "amount": -2,
+      "ticks": 79014
+    },
+    {
+      "kind": "recipient-burst",
+      "testCase": "04b-misery-negative",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 63402996,
+      "power": null,
+      "amount": 0,
+      "ticks": 79014
+    },
+    {
+      "kind": "power",
+      "testCase": "04b-misery-negative",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 46323232,
+      "power": "STRENGTH_POWER",
+      "amount": -2,
+      "ticks": 79064
+    },
+    {
+      "kind": "recipient-burst",
+      "testCase": "04b-misery-negative",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 46323232,
+      "power": null,
+      "amount": 0,
+      "ticks": 79064
+    },
+    {
+      "kind": "after-play",
+      "testCase": "04b-misery-negative",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 35369080,
+      "power": null,
+      "amount": 0,
+      "ticks": 79115
+    },
+    {
+      "kind": "before-play",
+      "testCase": "04c-misery-no-debuff",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 35369080,
+      "power": null,
+      "amount": 0,
+      "ticks": 84246
+    },
+    {
+      "kind": "hit",
+      "testCase": "04c-misery-no-debuff",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 35369080,
+      "power": null,
+      "amount": 0,
+      "ticks": 84280
+    },
+    {
+      "kind": "after-play",
+      "testCase": "04c-misery-no-debuff",
+      "card": "MISERY",
+      "target": "CORPSE_SLUG",
+      "targetIdentity": 35369080,
+      "power": null,
+      "amount": 0,
+      "ticks": 84330
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "WatcherStanceTransitions",
+  "name": "Watcher stance transitions",
+  "author": "Local animation and compatibility",
+  "version": "0.1.0",
+  "has_dll": true,
+  "has_pck": false,
+  "affects_gameplay": false,
+  "dependencies": [{"id": "YUWatcherForms"}]
+}

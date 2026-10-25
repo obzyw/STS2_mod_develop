@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "cardArt": false,
+  "motion": false,
+  "effects": true,
+  "background": "res://scenes/screens/char_select/char_select_bg_watcher.tscn",
+  "skeleton": "res://YUWatcherForms/animations/character_select/watcher/characterselect_watcher_skel_data.tres",
+  "expectedSkeleton": "res://YUWatcherForms/animations/character_select/watcher/characterselect_watcher_skel_data.tres",
+  "visible": true,
+  "position": "(451.6363, 61.818176)",
+  "display": {
+    "fpsLimit": 165,
+    "vsync": "Enabled",
+    "refreshHz": 165.004,
+    "windowMode": "Fullscreen",
+    "focused": true
+  },
+  "scope": "Fresh process; actual character selection scene; no embark, combat or per-card assertion."
+}

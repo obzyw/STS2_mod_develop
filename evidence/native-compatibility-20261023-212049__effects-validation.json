@@ -1,0 +1,2445 @@
+{
+  "success": true,
+  "error": null,
+  "expectedCases": 52,
+  "cases": [
+    {
+      "id": "control-murder-off",
+      "name": "Murder",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "patched": false,
+      "upgraded": true,
+      "fxOff": null,
+      "counts": {
+        "melee.impact": 1,
+        "melee.murderScene": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        6,
+        0
+      ]
+    },
+    {
+      "id": "candidate-murder-global-off",
+      "name": "Murder",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "patched": true,
+      "upgraded": true,
+      "fxOff": null,
+      "counts": {},
+      "testMode": false,
+      "damage": [
+        0,
+        6,
+        0
+      ]
+    },
+    {
+      "id": "candidate-murder-card-off",
+      "name": "Murder",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "patched": true,
+      "upgraded": true,
+      "fxOff": null,
+      "counts": {},
+      "testMode": false,
+      "damage": [
+        0,
+        6,
+        0
+      ]
+    },
+    {
+      "id": "candidate-murder-card-on",
+      "name": "Murder",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "melee.murderScene": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        6,
+        0
+      ]
+    },
+    {
+      "id": "control-murder-preview",
+      "name": "Murder",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": false,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "msa.node": 24,
+        "msa.ActorPresentation.Begin": 1,
+        "melee.murderScene": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        6,
+        0
+      ]
+    },
+    {
+      "id": "control-bottle",
+      "name": "BouncingFlask",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": false,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.power.PoisonFx": 3
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "priority-LeadingStrike",
+      "name": "LeadingStrike",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.PlayCreate": 2
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "id": "priority-Slice",
+      "name": "Slice",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "msa.node": 20,
+        "msa.ActorPresentation.Begin": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        6,
+        0
+      ]
+    },
+    {
+      "id": "priority-PreciseCut",
+      "name": "PreciseCut",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1,
+        "fx.OnHit": 3
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        15,
+        0
+      ]
+    },
+    {
+      "id": "priority-Finisher",
+      "name": "Finisher",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1,
+        "fx.OnHit": 8
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        48,
+        0
+      ]
+    },
+    {
+      "id": "priority-EchoingSlash",
+      "name": "EchoingSlash",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.OnPlay": 1,
+        "fx.OnHit": 3
+      },
+      "testMode": false,
+      "damage": [
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "id": "priority-Predator",
+      "name": "Predator",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.OnHit": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        15,
+        0
+      ]
+    },
+    {
+      "id": "priority-Pounce",
+      "name": "Pounce",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.OnPlay": 1,
+        "fx.OnHit": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        14,
+        0
+      ]
+    },
+    {
+      "id": "priority-PoisonedStab",
+      "name": "PoisonedStab",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnHit": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        4,
+        0
+      ]
+    },
+    {
+      "id": "priority-Neutralize",
+      "name": "Neutralize",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "msa.node": 25,
+        "msa.ActorPresentation.Begin": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "id": "priority-Assassinate",
+      "name": "Assassinate",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1,
+        "fx.OnHit": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        10,
+        0
+      ]
+    },
+    {
+      "id": "priority-Dash",
+      "name": "Dash",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.OnPlay": 1,
+        "fx.OnHit": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        10,
+        0
+      ]
+    },
+    {
+      "id": "priority-SuckerPunch",
+      "name": "SuckerPunch",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.OnHit": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        8,
+        0
+      ]
+    },
+    {
+      "id": "priority-Backstab",
+      "name": "Backstab",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1,
+        "fx.OnHit": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        11,
+        0
+      ]
+    },
+    {
+      "id": "priority-Murder",
+      "name": "Murder",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1,
+        "fx.OnHit": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        9,
+        0
+      ]
+    },
+    {
+      "id": "priority-Suppress",
+      "name": "Suppress",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1,
+        "fx.OnHit": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        11,
+        0
+      ]
+    },
+    {
+      "id": "priority-TheHunt",
+      "name": "TheHunt",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1,
+        "fx.OnHit": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        10,
+        0
+      ]
+    },
+    {
+      "id": "priority-BubbleBubble",
+      "name": "BubbleBubble",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "priority-DeadlyPoison",
+      "name": "DeadlyPoison",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1,
+        "fx.power.PoisonFx": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "priority-BouncingFlask",
+      "name": "BouncingFlask",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.power.PoisonFx": 2
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "priority-Shiv",
+      "name": "Shiv",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnShivHit": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        4,
+        0
+      ]
+    },
+    {
+      "id": "priority-GrandFinale",
+      "name": "GrandFinale",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "melee.finaleScene": 1
+      },
+      "testMode": false,
+      "damage": [
+        60,
+        60,
+        60
+      ]
+    },
+    {
+      "id": "priority-Snakebite",
+      "name": "Snakebite",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1,
+        "fx.power.PoisonFx": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "priority-Tracking",
+      "name": "Tracking",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.power.TrackingFx": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "priority-KnifeTrap",
+      "name": "KnifeTrap",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1,
+        "fx.OnShivHit": 3
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "id": "priority-StormOfSteel",
+      "name": "StormOfSteel",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "fallback-murder-msa",
+      "name": "Murder",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "msa.node": 27,
+        "msa.ActorPresentation.Begin": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        9,
+        0
+      ]
+    },
+    {
+      "id": "fallback-trap-msa",
+      "name": "KnifeTrap",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "msa.ActorPresentation.BeginShiv": 3,
+        "msa.node": 7,
+        "msa.KnifeTrapVisual..ctor": 3
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "id": "fallback-finale-msa",
+      "name": "GrandFinale",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "msa.node": 14,
+        "msa.ActorPresentation.BeginFinale": 1
+      },
+      "testMode": false,
+      "damage": [
+        60,
+        60,
+        60
+      ]
+    },
+    {
+      "id": "candidate-trap-global-off",
+      "name": "KnifeTrap",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "patched": true,
+      "upgraded": true,
+      "fxOff": null,
+      "counts": {},
+      "testMode": false,
+      "damage": [
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "id": "candidate-shiv-global-off",
+      "name": "Shiv",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "patched": true,
+      "upgraded": true,
+      "fxOff": null,
+      "counts": {},
+      "testMode": false,
+      "damage": [
+        0,
+        6,
+        0
+      ]
+    },
+    {
+      "id": "candidate-trap-card-off",
+      "name": "KnifeTrap",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "patched": true,
+      "upgraded": true,
+      "fxOff": null,
+      "counts": {},
+      "testMode": false,
+      "damage": [
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "id": "per-card-murder-fallback",
+      "name": "Murder",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": [
+        "Murder"
+      ],
+      "counts": {
+        "msa.node": 27,
+        "msa.ActorPresentation.Begin": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        9,
+        0
+      ]
+    },
+    {
+      "id": "trap-shiv-only-fx",
+      "name": "KnifeTrap",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": true,
+      "fxOff": [
+        "KnifeTrap"
+      ],
+      "counts": {
+        "fx.OnShivHit": 3
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "id": "trap-parent-only-fx",
+      "name": "KnifeTrap",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": true,
+      "fxOff": [
+        "Shiv"
+      ],
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "id": "trap-all-fx-off-fallback",
+      "name": "KnifeTrap",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": [
+        "KnifeTrap",
+        "Shiv"
+      ],
+      "counts": {
+        "msa.ActorPresentation.BeginShiv": 3,
+        "msa.node": 7,
+        "msa.KnifeTrapVisual..ctor": 3
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "id": "upgraded-slice",
+      "name": "Slice",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": true,
+      "fxOff": null,
+      "counts": {
+        "msa.node": 20,
+        "msa.ActorPresentation.Begin": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        9,
+        0
+      ]
+    },
+    {
+      "id": "upgraded-murder",
+      "name": "Murder",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": true,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1,
+        "fx.OnHit": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        9,
+        0
+      ]
+    },
+    {
+      "id": "additional-BulletTime",
+      "name": "BulletTime",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "additional-Backflip",
+      "name": "Backflip",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.OnPlay": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "additional-WraithForm",
+      "name": "WraithForm",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1,
+        "fx.power.WraithFormFx": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "additional-Afterimage",
+      "name": "Afterimage",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.OnPlay": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "additional-Pinpoint",
+      "name": "Pinpoint",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnHit": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        15,
+        0
+      ]
+    },
+    {
+      "id": "additional-Blur",
+      "name": "Blur",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.OnPlay": 1,
+        "fx.power.BlurHazeFx": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "additional-Burst",
+      "name": "Burst",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.power.BurstFx": 1
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "additional-Flechettes",
+      "name": "Flechettes",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "fx.OnPlay": 1,
+        "fx.OnHit": 3
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        15,
+        0
+      ]
+    },
+    {
+      "id": "additional-DaggerThrow",
+      "name": "DaggerThrow",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": false,
+      "fxOff": null,
+      "counts": {},
+      "testMode": false,
+      "damage": [
+        0,
+        9,
+        0
+      ]
+    }
+  ],
+  "routing": [
+    {
+      "name": "LeadingStrike",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Slice",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "PreciseCut",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Finisher",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "EchoingSlash",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Predator",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Pounce",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "PoisonedStab",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Neutralize",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "Assassinate",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Dash",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "SuckerPunch",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Backstab",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Murder",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Suppress",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "TheHunt",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "BubbleBubble",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "DeadlyPoison",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "BouncingFlask",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "Shiv",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "GrandFinale",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Snakebite",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Tracking",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "KnifeTrap",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "StormOfSteel",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "LeadingStrike",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Slice",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "PreciseCut",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Finisher",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "EchoingSlash",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Predator",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Pounce",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "PoisonedStab",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Neutralize",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "Assassinate",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Dash",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "SuckerPunch",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Backstab",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Murder",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Suppress",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "TheHunt",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "BubbleBubble",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "DeadlyPoison",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "BouncingFlask",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "Shiv",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "GrandFinale",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "Snakebite",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Tracking",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "KnifeTrap",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "StormOfSteel",
+      "fxOn": true,
+      "msaOn": true,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "LeadingStrike",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Slice",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "PreciseCut",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Finisher",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "EchoingSlash",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Predator",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Pounce",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "PoisonedStab",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Neutralize",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Assassinate",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Dash",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "SuckerPunch",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Backstab",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Murder",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Suppress",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "TheHunt",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "BubbleBubble",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "DeadlyPoison",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "BouncingFlask",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Shiv",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "GrandFinale",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Snakebite",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Tracking",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "KnifeTrap",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "StormOfSteel",
+      "fxOn": true,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "LeadingStrike",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Slice",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "PreciseCut",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Finisher",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "EchoingSlash",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Predator",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Pounce",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "PoisonedStab",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Neutralize",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Assassinate",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Dash",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "SuckerPunch",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Backstab",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Murder",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Suppress",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "TheHunt",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "BubbleBubble",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "DeadlyPoison",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "BouncingFlask",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Shiv",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "GrandFinale",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Snakebite",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Tracking",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "KnifeTrap",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "StormOfSteel",
+      "fxOn": true,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "LeadingStrike",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "Slice",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "PreciseCut",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "Finisher",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "EchoingSlash",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "Predator",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "Pounce",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "PoisonedStab",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "Neutralize",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "Assassinate",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "Dash",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "SuckerPunch",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "Backstab",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "Murder",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "Suppress",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "TheHunt",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "BubbleBubble",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "DeadlyPoison",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "BouncingFlask",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "Shiv",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "GrandFinale",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Snakebite",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "Tracking",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "KnifeTrap",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "StormOfSteel",
+      "fxOn": false,
+      "msaOn": true,
+      "global": true,
+      "allowed": true
+    },
+    {
+      "name": "LeadingStrike",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "Slice",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "PreciseCut",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "Finisher",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "EchoingSlash",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "Predator",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "Pounce",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "PoisonedStab",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "Neutralize",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "Assassinate",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "Dash",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "SuckerPunch",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "Backstab",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "Murder",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "Suppress",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "TheHunt",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "BubbleBubble",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "DeadlyPoison",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "BouncingFlask",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "Shiv",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "GrandFinale",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "Snakebite",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "Tracking",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "KnifeTrap",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "StormOfSteel",
+      "fxOn": false,
+      "msaOn": true,
+      "global": false,
+      "allowed": true
+    },
+    {
+      "name": "LeadingStrike",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Slice",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "PreciseCut",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Finisher",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "EchoingSlash",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Predator",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Pounce",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "PoisonedStab",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Neutralize",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Assassinate",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Dash",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "SuckerPunch",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Backstab",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Murder",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Suppress",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "TheHunt",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "BubbleBubble",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "DeadlyPoison",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "BouncingFlask",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Shiv",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "GrandFinale",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Snakebite",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "Tracking",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "KnifeTrap",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "StormOfSteel",
+      "fxOn": false,
+      "msaOn": false,
+      "global": true,
+      "allowed": false
+    },
+    {
+      "name": "LeadingStrike",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Slice",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "PreciseCut",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Finisher",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "EchoingSlash",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Predator",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Pounce",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "PoisonedStab",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Neutralize",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Assassinate",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Dash",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "SuckerPunch",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Backstab",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Murder",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Suppress",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "TheHunt",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "BubbleBubble",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "DeadlyPoison",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "BouncingFlask",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Shiv",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "GrandFinale",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Snakebite",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "Tracking",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "KnifeTrap",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    },
+    {
+      "name": "StormOfSteel",
+      "fxOn": false,
+      "msaOn": false,
+      "global": false,
+      "allowed": false
+    }
+  ]
+}

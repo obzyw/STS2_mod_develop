@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "error": null,
+  "expectedCases": 5,
+  "cases": [
+    {
+      "id": "to-Calm",
+      "intermediateFrame": true,
+      "completed": true
+    },
+    {
+      "id": "to-Wrath",
+      "intermediateFrame": true,
+      "completed": true
+    },
+    {
+      "id": "to-Divinity",
+      "intermediateFrame": true,
+      "completed": true
+    },
+    {
+      "id": "divinity-attack",
+      "damage": 18,
+      "resumed": true
+    },
+    {
+      "id": "to-Normal",
+      "intermediateFrame": true,
+      "completed": true
+    }
+  ]
+}

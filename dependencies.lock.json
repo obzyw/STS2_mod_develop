@@ -1,0 +1,201 @@
+{
+  "gameVersion": "v0.111.0",
+  "captured": "2026-10-25",
+  "scope": "Target author dependencies, not the entire subscribed mod list. Steam may install additional transitive dependencies.",
+  "mods": [
+    {
+      "id": "RegentFX",
+      "name": "万象辉星[RegentFX]",
+      "version": "0.5.1",
+      "workshopId": "3747497501",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3747497501",
+      "dlls": [
+        {
+          "name": "RegentFX.dll",
+          "sha256": "0F0262B3C4304C824C81D908CA7F3CEDABD00AF4C6B522A02513FF380C36EF06"
+        }
+      ]
+    },
+    {
+      "id": "Watcher",
+      "name": "Watcher",
+      "version": "0.10.5",
+      "workshopId": "3747526116",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3747526116",
+      "dlls": [
+        {
+          "name": "Watcher.dll",
+          "sha256": "A616CEDC386FEF85F559E37358500CB9EFDDCB6371D46A32A12940C8915A9053"
+        }
+      ]
+    },
+    {
+      "id": "ModConfig",
+      "name": "皮皮配置: ModConfig",
+      "version": "0.2.3",
+      "workshopId": "3747557003",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3747557003",
+      "dlls": [
+        {
+          "name": "ModConfig.dll",
+          "sha256": "EA0B9A1D3CE6940DA724C49777F17480DDBC6A3ABE2AABC979DCEFE177CE8A62"
+        }
+      ]
+    },
+    {
+      "id": "WatcherBeautified",
+      "name": "观者 美化版 Watcher Beautified",
+      "version": "0.10.3",
+      "workshopId": "3747800917",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3747800917",
+      "dlls": []
+    },
+    {
+      "id": "MeleeAttack",
+      "name": "动作与特效",
+      "version": "1.0.31",
+      "workshopId": "3774274248",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3774274248",
+      "dlls": [
+        {
+          "name": "MeleeAttack.dll",
+          "sha256": "7BB0DE0F078D97EDFEBB0D4494B5B0A1224CF75DA940971EC6106870F4AF663B"
+        }
+      ]
+    },
+    {
+      "id": "DebilitateRedKnife",
+      "name": "亡灵契约师卡牌动画拓展",
+      "version": "1.0.3",
+      "workshopId": "3816255707",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3816255707",
+      "dlls": [
+        {
+          "name": "DebilitateRedKnife.dll",
+          "sha256": "7AB9BD818BBC19DCA5BF7DDA21D82B6666F8C477DA75086C39C6A296AC6C7DE4"
+        }
+      ]
+    },
+    {
+      "id": "MoreNecrobinderAnimations",
+      "name": "More Necrobinder Animations",
+      "version": "0.1.26",
+      "workshopId": "3816316338",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3816316338",
+      "dlls": [
+        {
+          "name": "MoreNecrobinderAnimations.BaseLib.dll",
+          "sha256": "0AEC870C6D3BAC413C94AA692A177718B7A29B21D572590A4A16C469A819C606"
+        },
+        {
+          "name": "MoreNecrobinderAnimations.dll",
+          "sha256": "6FD8DD9BEB489834EAFFAD4E0CA8D8CF7403C7D4F490EF2A4E814E4F51694005"
+        },
+        {
+          "name": "MoreNecrobinderAnimations.Settings.dll",
+          "sha256": "656FF407B58FD1EC108FF199E38A786EE5127B09A74EF135BA200E88770A566D"
+        }
+      ]
+    },
+    {
+      "id": "YUWatcherForms",
+      "name": "观者形态与受伤外观",
+      "version": "0.3.13",
+      "workshopId": "3817002306",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3817002306",
+      "dlls": [
+        {
+          "name": "YUWatcherForms.dll",
+          "sha256": "08BA9AA8606E0AA6FAA0971E537C13D22E523BF6A280D3C169E6942552A6DE37"
+        }
+      ]
+    },
+    {
+      "id": "SilentFX",
+      "name": "刃雨毒潮SilentFX",
+      "version": "0.72.15",
+      "workshopId": "3817850774",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3817850774",
+      "dlls": [
+        {
+          "name": "SilentFX.dll",
+          "sha256": "F0FEF25F3E01F7827F03FA394D366511D09D13826B20689318F474622366CCC7"
+        }
+      ]
+    },
+    {
+      "id": "WatcherReimagined",
+      "name": "观者·重塑 The Watcher Reimagined",
+      "version": "1.5.3",
+      "workshopId": "3818575110",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3818575110",
+      "dlls": [
+        {
+          "name": "WatcherReimagined.dll",
+          "sha256": "1EB66EAE891D4D3274654989481FB66C0E37E36784B3807A462F1EE9A0CAB2B4"
+        }
+      ]
+    },
+    {
+      "id": "RegentAnimations",
+      "name": "RegentAnimations储君动画",
+      "version": "0.50.0",
+      "workshopId": "3820682341",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3820682341",
+      "dlls": [
+        {
+          "name": "RegentAnimations.dll",
+          "sha256": "44527945C1BCDEE0A5042575996BA5E704B0EE99E7CE90C397D3D0F4F8B00677"
+        }
+      ]
+    },
+    {
+      "id": "NecrobinderVfx",
+      "name": "亡灵契约师 更多金卡特效",
+      "version": "0.3.2",
+      "workshopId": "3821345574",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3821345574",
+      "dlls": [
+        {
+          "name": "NecrobinderVfx.dll",
+          "originalSha256": "1C68A4699FDC0BB25BC0737FE811E9A368442A47D922F9A6B3F493DED28433AA",
+          "compatSha256": "88C0BA2ABB78D8EEA9A4983972449EE3E73A3AB96B8DEE14261DA8F1F8EE1647"
+        }
+      ]
+    },
+    {
+      "id": "MoreSilentAnimations",
+      "name": "More Silent Animations",
+      "version": "0.1.32",
+      "workshopId": "3821353824",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3821353824",
+      "dlls": [
+        {
+          "name": "MoreSilentAnimations.BaseLib.dll",
+          "sha256": "D14C9C23AF54F4A466D0CE00A8726E459317FC723DC166F1A6B426BD09077491"
+        },
+        {
+          "name": "MoreSilentAnimations.dll",
+          "sha256": "95F6E7A7C003FBA2B9FA1C64E470373DCBF349100BB5EB5C0173B7ED5C3D23AC"
+        },
+        {
+          "name": "MoreSilentAnimations.Settings.dll",
+          "sha256": "D0948F7B364D929E8BC5A2345E7988203968AC5D4DBECFD7818C7D06761F513E"
+        }
+      ]
+    },
+    {
+      "id": "BaseLib",
+      "name": "BaseLib",
+      "version": "v3.4.7",
+      "workshopId": "3737335127",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3737335127",
+      "dlls": [
+        {
+          "name": "BaseLib.dll",
+          "sha256": "55863CA6ADC30A61A7544874E157A519FFE148CCF2B18025947609C4BFF813CE"
+        }
+      ]
+    }
+  ]
+}

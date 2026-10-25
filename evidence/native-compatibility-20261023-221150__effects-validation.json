@@ -1,0 +1,52 @@
+{
+  "success": true,
+  "error": null,
+  "expectedCases": 2,
+  "cases": [
+    {
+      "id": "visual-KnifeTrap",
+      "name": "KnifeTrap",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": true,
+      "fxOff": null,
+      "counts": {
+        "fx.heldNode": 2,
+        "msa.node": 7,
+        "msa.ActorPresentation.BeginShiv": 3,
+        "msa.KnifeTrapVisual..ctor": 3
+      },
+      "testMode": false,
+      "damage": [
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "id": "visual-GrandFinale",
+      "name": "GrandFinale",
+      "fxOn": true,
+      "msaOn": true,
+      "global": true,
+      "patched": true,
+      "upgraded": true,
+      "fxOff": null,
+      "counts": {
+        "melee.finaleScene": 1,
+        "msa.node": 4,
+        "melee.impact": 3,
+        "msa.bow": 1
+      },
+      "testMode": false,
+      "damage": [
+        75,
+        75,
+        75
+      ]
+    }
+  ],
+  "routing": []
+}
