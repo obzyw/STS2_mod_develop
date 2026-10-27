@@ -1,0 +1,233 @@
+{
+  "restored": true,
+  "originalFiles": 1184,
+  "scope": "Motion coverage and unscaled fire-wall fade fix",
+  "limitations": [
+    "Current enabled workshop configuration only",
+    "Other character motion branches not repeated in this fix",
+    "No exhaustive third-party card or skin coverage"
+  ],
+  "results": [
+    {
+      "character": "Ironclad",
+      "scriptSha256": "215d795079bf2b521e9bf9028abd8baf21cfd67101aa30d36b1f323c28f9bbab",
+      "fireFadeChecks": [
+        {
+          "id": "fire-fade",
+          "speed": 1,
+          "alphaAt150ms": 0.7120538461538463,
+          "alphaAt370ms": 0.22400461538461539,
+          "finished": true
+        },
+        {
+          "id": "fire-fade",
+          "speed": 5,
+          "alphaAt150ms": 0.7518446153846154,
+          "alphaAt370ms": 0.25583538461538474,
+          "finished": true
+        }
+      ],
+      "success": true,
+      "motionChecks": [
+        {
+          "id": "motion",
+          "motion": "trigger-Attack",
+          "minimumSubmitted": 28,
+          "frames": 48
+        },
+        {
+          "id": "motion",
+          "motion": "trigger-Cast",
+          "minimumSubmitted": 30,
+          "frames": 87
+        },
+        {
+          "id": "motion",
+          "motion": "trigger-Hit",
+          "minimumSubmitted": 30,
+          "frames": 87
+        },
+        {
+          "id": "motion",
+          "motion": "trigger-PowerUp",
+          "minimumSubmitted": 30,
+          "frames": 88
+        },
+        {
+          "id": "motion",
+          "motion": "trigger-Relaxed",
+          "minimumSubmitted": 34,
+          "frames": 88
+        },
+        {
+          "id": "motion",
+          "motion": "trigger-Idle",
+          "minimumSubmitted": 33,
+          "frames": 88
+        },
+        {
+          "id": "motion",
+          "motion": "trigger-heavyAttack",
+          "minimumSubmitted": 33,
+          "frames": 87
+        },
+        {
+          "id": "motion",
+          "motion": "play-defend",
+          "minimumSubmitted": 34,
+          "frames": 100
+        },
+        {
+          "id": "motion",
+          "motion": "play-ShrugItOff",
+          "minimumSubmitted": 24,
+          "frames": 130
+        },
+        {
+          "id": "motion",
+          "motion": "play-Impervious",
+          "minimumSubmitted": 34,
+          "frames": 136
+        },
+        {
+          "id": "motion",
+          "motion": "shield-guard-raise",
+          "minimumSubmitted": 31,
+          "frames": 71
+        },
+        {
+          "id": "motion",
+          "motion": "shield-guard-lower",
+          "minimumSubmitted": 31,
+          "frames": 57
+        }
+      ]
+    },
+    {
+      "character": "Silent",
+      "scriptSha256": "215d795079bf2b521e9bf9028abd8baf21cfd67101aa30d36b1f323c28f9bbab",
+      "fireFadeChecks": [
+        {
+          "id": "fire-fade",
+          "speed": 1,
+          "alphaAt150ms": 0.7606707692307694,
+          "alphaAt370ms": 0.3222600000000002,
+          "finished": true
+        },
+        {
+          "id": "fire-fade",
+          "speed": 5,
+          "alphaAt150ms": 0.6924969230769231,
+          "alphaAt370ms": 0.295866153846154,
+          "finished": true
+        }
+      ],
+      "success": true,
+      "motionChecks": [
+        {
+          "id": "motion",
+          "motion": "trigger-Attack",
+          "minimumSubmitted": 14,
+          "frames": 19
+        },
+        {
+          "id": "motion",
+          "motion": "trigger-Cast",
+          "minimumSubmitted": 14,
+          "frames": 20
+        },
+        {
+          "id": "motion",
+          "motion": "trigger-Hit",
+          "minimumSubmitted": 14,
+          "frames": 20
+        },
+        {
+          "id": "motion",
+          "motion": "trigger-PowerUp",
+          "minimumSubmitted": 15,
+          "frames": 20
+        },
+        {
+          "id": "motion",
+          "motion": "trigger-Relaxed",
+          "minimumSubmitted": 14,
+          "frames": 20
+        },
+        {
+          "id": "motion",
+          "motion": "trigger-Idle",
+          "minimumSubmitted": 15,
+          "frames": 20
+        },
+        {
+          "id": "motion",
+          "motion": "play-defend",
+          "minimumSubmitted": 15,
+          "frames": 22
+        }
+      ]
+    },
+    {
+      "character": "Watcher",
+      "scriptSha256": "215d795079bf2b521e9bf9028abd8baf21cfd67101aa30d36b1f323c28f9bbab",
+      "fireFadeChecks": [
+        {
+          "id": "fire-fade",
+          "speed": 1,
+          "alphaAt150ms": 0.712572307692308,
+          "alphaAt370ms": 0.21942000000000011,
+          "finished": true
+        },
+        {
+          "id": "fire-fade",
+          "speed": 5,
+          "alphaAt150ms": 0.7512692307692308,
+          "alphaAt370ms": 0.25670461538461553,
+          "finished": true
+        }
+      ],
+      "success": true,
+      "motionChecks": [
+        {
+          "id": "motion",
+          "motion": "trigger-Attack",
+          "minimumSubmitted": 12,
+          "frames": 85
+        },
+        {
+          "id": "motion",
+          "motion": "trigger-Cast",
+          "minimumSubmitted": 15,
+          "frames": 87
+        },
+        {
+          "id": "motion",
+          "motion": "trigger-Hit",
+          "minimumSubmitted": 15,
+          "frames": 85
+        },
+        {
+          "id": "motion",
+          "motion": "trigger-PowerUp",
+          "minimumSubmitted": 15,
+          "frames": 88
+        },
+        {
+          "id": "motion",
+          "motion": "trigger-Relaxed",
+          "minimumSubmitted": 15,
+          "frames": 87
+        },
+        {
+          "id": "motion",
+          "motion": "trigger-Idle",
+          "minimumSubmitted": 15,
+          "frames": 88
+        }
+      ]
+    }
+  ],
+  "batch": "20261026-143507",
+  "date": "2026-10-26"
+}

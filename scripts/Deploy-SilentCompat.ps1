@@ -20,7 +20,7 @@ if($Rollback){
 $steamapps=Split-Path (Split-Path $GamePath -Parent) -Parent
 $hashes=@{
     '3774274248/MeleeAttack.dll'='7BB0DE0F078D97EDFEBB0D4494B5B0A1224CF75DA940971EC6106870F4AF663B'
-    '3821353824/MoreSilentAnimations.dll'='95F6E7A7C003FBA2B9FA1C64E470373DCBF349100BB5EB5C0173B7ED5C3D23AC'
+    '3821353824/MoreSilentAnimations.dll'='1A86D4BFB5AA9260BF3F22E188DD50D43B9C2ACA39929A20FCC3D2C315956E41'
 }
 foreach($relative in $hashes.Keys){
     $dll=Join-Path $steamapps ('workshop/content/2868840/'+$relative)

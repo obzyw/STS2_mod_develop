@@ -1,0 +1,11 @@
+{
+  "Enabled": true,
+  "ShowBulletTimeButton": true,
+  "DisabledCards": [
+    "Assassinate",
+    "EchoingSlash",
+    "Murder",
+    "StormOfSteel",
+    "Tracking"
+  ]
+}

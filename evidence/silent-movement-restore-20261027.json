@@ -1,0 +1,40 @@
+{
+  "cause": "Missing local compatibility, author master switch enabled",
+  "pluginSha256": "CC33C3454FAD37C8B1E18E68C44B34A581FA9269C4A4ABA64B5ACFC0C19FEB69",
+  "success": true,
+  "installed": true,
+  "module": "SilentMovementCompat",
+  "cases": [
+    {
+      "id": "author-settings",
+      "enabled": true,
+      "disabledCards": [
+        "StormOfSteel",
+        "Tracking"
+      ]
+    },
+    {
+      "id": "movement",
+      "card": "Neutralize",
+      "visibleFrames": 57,
+      "displacement": 715.2182,
+      "duplicateBodyFrames": 0,
+      "damage": 3
+    },
+    {
+      "id": "movement",
+      "card": "Backstab",
+      "visibleFrames": 75,
+      "displacement": 1245.0559,
+      "duplicateBodyFrames": 0,
+      "damage": 11
+    }
+  ],
+  "originalFileCount": 1509,
+  "scope": "Two representative cards only; full historical effects compatibility not restored",
+  "probeRemoved": true,
+  "version": "0.1.1",
+  "nativeExitCode": 0,
+  "date": "2026-10-27",
+  "recordsRestored": true
+}

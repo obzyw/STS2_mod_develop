@@ -1,5 +1,15 @@
 # 猎人三方特效与开关兼容
 
+## 2026-10-27 当前恢复版0.1.2
+
+前两次只补位移和刀刃陷阱，未恢复本模块，用户指出大量SilentFX仍被其他来源整牌否决。已按当前MoreSilentAnimations 0.1.33重新检查原生接口，更新源码/部署的MSA哈希为1A86D4BFB5AA9260BF3F22E188DD50D43B9C2ACA39929A20FCC3D2C315956E41；MeleeAttack、SilentFX、游戏哈希不变。完整模块已安装，独立KnifeTrapStages已归档撤回。
+
+恢复原方案：解除更多猎人动画对SilentFX的整牌否决，按真实播放注册及阶段处理；手牌预览、后续中毒等独立作用域保留。不能同阶段共存的遵循SilentFX > MoreSilentAnimations > MeleeAttack，并查询作者当前总开关/单卡开关。不会把关闭了的低优先级开关强制打开；上级关闭后按其余开关回退。刀刃陷阱及华丽收场原例外保留。
+
+130818精简批次通过：24项共享牌许可路由；实际带毒刺击仅S命中、切割A人物动作、刀刃陷阱S预览加3次A飞刀且无S出牌/命中叠加，刀刃伤害12。初始化实际发现25张A动画、76个S播放来源，不把注册计数当逐卡出牌验证。原生退出0，1360个原记录恢复，探针清理。华丽收场本轮未实际出牌，不复用旧测试数作新验收。精选证据 evidence/silent-full-priority-20261027.json。
+
+当前迁移入口为 scripts/Restore-SilentSetup.ps1，安装位移＋完整特效模块；profiles/silent-setup.json同步本机现有作者选项，包括用户已关闭的Assassinate/EchoingSlash/Murder/StormOfSteel/Tracking。没有改本机这些开关。原portable仍是历史快照。
+
 2026-10-24，Asia/Shanghai。**当前为 0.1.1；两张牌的新例外与增量验收详见 VISUAL_EXCEPTIONS.md。** 下方 52 用例、200 项来源及 18 次伤害对照为 0.1.0 的历史通过记录，本次没有重跑。初步审计及早期停止历史见 SILENT_EFFECTS_AUDIT.md。
 
 ## 规则与实际行为

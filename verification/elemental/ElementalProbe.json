@@ -1,0 +1,1 @@
+{"id":"ElementalProbe","name":"Temporary elemental VFX verification","author":"obzyw","version":"0.1.0","has_dll":true,"has_pck":false,"affects_gameplay":true,"dependencies":[{"id":"ElementalDefenseVfx"}]}

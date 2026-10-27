@@ -1,5 +1,90 @@
 # 新会话先读：交接与当前任务边界
 
+## 2026-10-28 打包交接检查点（优先阅读）
+
+本轮按当前AGENTS要求停止额外整合和游戏测试，只整理并上传现有源码。portable保持历史已验证快照；SkinAnimationBridge仍是未部署的开发稿，不安装到日常游戏，不自动运行Deploy-Unified。后续逐牌开发尚未完成。
+
+| 角色 | 截至本次交接的实际边界 |
+|---|---|
+| 猎人 | 既有100行观察及蛇咬四阶段专项见下文；路径/替身检查不代表美术验收。弹跳药瓶由Guida覆盖，单列跳过 |
+| 鸡煲 | 冷静头脑/充电已有四阶段记录；194848偏差认知四阶段对象创建及normal画面检查；195345快速修复仅normal对象创建。新增全息影像代码仅C#构建成功，GDScript和实际效果未验证，可能影响整桥初始化；不得部署 |
+| 骨妹 | 194848五牌四阶段20次观察：灾祸、守墓人、挽歌、致命、死神形态；动作替身牌有可见帧，未见换皮/双人物，退场透明度检查通过。尚非全部卡牌验收 |
+| 战士 | 仍无新增适配代码；17牌观察不足以验收敌方回合举盾及结束回合效果 |
+
+下一步若用户恢复开发：先完成全息影像最小专项，验证脚本API、皮肤捕获和退场；修正球类效果的观察器范围后再判断双重/四重释放，不能把构造器计数为零直接写成失效。其余鸡煲人物网格效果与战士适配仍待做。不要重跑已完成旧组。
+
+本机备份在artifacts/skin-animation-backup-20261027-145331，包含作者资源和私人设置，不上传。仓库仅保留自有代码、原创素材和精选证据；迁移入口仍分为portable历史快照及docs/SILENT_MIGRATION.md当前猎人恢复，不应混称一个订阅即用整合包。
+
+## 2026-10-27 当前进行中：四角色三阶段皮肤与动作逐牌适配
+
+用户新任务要求YUNecrobinder/YUDefect/YUSilent/YUIronclad三阶段皮肤，分别兼容MoreNecrobinder/MoreDefect/MoreSilent/ShieldOnly，逐牌检验；特别强调猎人位移须以皮肤形象重编动作、先备份可回滚。备份已完成：artifacts/skin-animation-backup-20261027-145331，脚本Backup-SkinAnimation.ps1。新增开发目录skin-animation，状态与细节见其README；未部署，不能称完成。
+
+当前详细进度见skin-animation/README.md。猎人170440有效四阶段共100行，92行路径/替身通过，4行弹跳药瓶Guida覆盖单列，4行蛇咬计数误报由192130四阶段专项修正通过；不能视为美术验收。鸡煲已实现冷静头脑/充电头部映射，163435两牌四阶段8次实际出牌，其他原版网格效果待适配。骨妹新增NecroPose.gd/NecroPoseBridge.cs，保持原版人物网格拒绝，以皮肤另绘动作替身；192354死神形态26替身帧、0换皮/0双人物，致命会话恢复。夹具移除起始遗物导致无奥斯提，前几牌零触发不能判皮肤失败；现已补OstyCmd.Summon并检查退场透明度，正在专项。战士17牌原版/normal观察完成，但举盾/岿然不动需敌方回合/结束回合，尚无新适配代码。
+
+SkinStageScope只在内存固定作者阶段设置并检查实际资源。Rollback-SkinAnimation.ps1仅撤下自有桥。桥仅夹具临时安装，当前稳定六个自有模块保留；不得发布或宣称四角色修完。
+严禁把放开原版校验、换回原版形象当作最终适配。没有改作者DLL/PCK或存档，原已验收插件仍安装。
+
+## 2026-10-27 最新：恢复完整猎人三方优先级（取代下面两次局部恢复）
+
+用户指出只修位移/刀刃并未解决大量SilentFX被屏蔽，要求可共存就共存，冲突按SilentFX > MoreSilentAnimations > MeleeAttack。已恢复原完整SilentEffectsCompat并适配MSA0.1.33，版本0.1.2；原游戏/Melee/SilentFX哈希不变。解除MSA整牌否决，按实际播放注册/手牌预览/后续能力分域并尊重作者游戏内开关；刀刃与华丽收场旧例外保留。SilentMovementCompat继续启用，冗余KnifeTrapStages已归档移出游戏。
+
+130818精简无保存验证通过：24个共享牌许可、实际带毒刺击S命中且无A接管、切割A动作、刀刃S预览+3次A飞刀且无S出牌/命中叠加。原生退出0，1360原文件恢复，探针移除。未重跑旧52/200套件，华丽收场本轮未出牌，不声称逐卡穷尽。证据 evidence/silent-full-priority-20261027.json。迁移脚本Restore-SilentSetup现安装位移＋完整特效，并撤回冗余KnifeTrapStages；profiles/silent-setup.json已同步现有MSA设置，禁Assassinate/EchoingSlash/Murder/StormOfSteel/Tracking，未改本机用户开关。当前已安装，未推送发布。
+
+## 2026-10-27 最新追加：猎人位移恢复与迁移入口
+
+用户要求优先查开关、效率优先。当前MoreSilentAnimations作者设置实际Enabled=true，只禁StormOfSteel/Tracking；本机缺SilentMovementCompat，MeleeAttack关位移仍会调用Toutou.OnAttackStart重置本体透明度。恢复该旧单点补丁，按当前MSA0.1.33审计更新源码/部署哈希，清单升0.1.1。仅做095629专项中和/背刺：57/75替身可见帧、715/1245像素位移、0重复本体帧，伤害3/11；没有重跑旧12项。原生退出0、记录恢复、探针清理，已安装。
+
+新电脑使用 scripts/Restore-SilentSetup.ps1 -GamePath，安装当前位移与刀刃两项兼容，并恢复 profiles/silent-setup.json 的已记录开关，备份当地原配置；-CheckOnly会报告缺插件、旧清单版本或总开关关闭。详见 docs/SILENT_MIGRATION.md。未更改本机两个已关闭的单卡设置。此入口不依赖骨妹旧离线方案；原Install-Portable仍是历史快照，不代表当前全部插件。未恢复旧完整SilentEffectsCompat，不要声称所有历史猎人优先级/华丽收场已恢复；未推送发布。
+
+## 2026-10-27 最新追加：新电脑恢复刀刃陷阱分阶段
+
+用户发现“选中刃雨毒潮、出牌更多猎人动画”失效，要求效率、不要过度测试。本机缺旧SilentEffectsCompat；MoreSilentAnimations已0.1.33，不能直接放行旧兼容包哈希。作者默认整牌兼容屏蔽了SilentFX预览。新增并已安装 [KnifeTrapStages](../effects/knife-trap/README.md)，仅恢复该牌例外与子小刀上下文，尊重开关、关闭MSA时回退SilentFX，不写作者设置或DLL。没有恢复其他猎人规则或旧完整插件，不要声称整套迁移完成。
+
+既有224406无保存专项批次已通过，未新增重复测试：普通/升级真实预览、三次MSA飞刀、无S出牌/命中叠加，伤害12/18；关闭MSA回退S伤害12；独立Shiv许可恢复。原生退出0，1349个原记录恢复，探针移除。证据 evidence/knife-trap-stages-20261027.json。effects主工程排除knife-trap子目录，避免未来构建混入第二插件入口。未推送/发布工坊。
+
+## 2026-10-26 最新追加：观者 CookieCursor 光标
+
+用户要求给 CookieCursor 补充同风格的观者头像。已使用内置 image_gen 参考作者两张饼干头像和当前观者美化形象，生成蓝灰发/双金簪/闭眼/紫粉领饰的原创饼干头；原图及提示词在 watcher/cursor/assets。新增 [WatcherCookieCursor](../watcher/cursor/README.md)，已安装，依赖 CookieCursor 0.7.0；只在内存里注册 watcher/thewatcher 两键，调用作者旋转方法及共享缩放流程，不写作者目录或设置。回滚用 Deploy-WatcherCookieCursor.ps1 -Rollback。
+
+213257夹具在扩展的第五幕默认项缺失处失败，尚未检查光标。213447改为只取前三幕、原生Launch后直接检查，无保存且不进无关战斗：实际Watcher角色启动后使用新图；两别名各1/1.5倍尺寸64/96、透明角、正负倾斜、热点缩放、切铁甲保留原图和默认光标恢复通过。原生退出0，记录恢复，探针清理。精选证据 evidence/watcher-cookie-cursor-20261026.json。TheWatcher独立角色启动、真实多人未测；美术待用户评价。未推送/发布工坊，未放入portable。
+
+## 2026-10-26 最新追加：火墙越过退出菜单
+
+已修复并安装 ElementalDefenseVfx 层级更新。独立特效根节点不继承角色/动作皮肤的 Z，跟随原生 CombatVfxContainer 当前深度；火墙及环绕碎片不额外正向抬高；反弹去掉额外+20。覆甲原网格不改层级。210659无保存批次仅测当前改动：Ironclad/Watcher实际出牌，右上角入口打开原生暂停菜单，GPU读回确认火墙位置的菜单不透明控件完全覆盖；临时抬高角色Z到100也通过；关闭菜单火墙保持。两进程原生退出0，1346个原记录恢复，探针清理。未点击放弃/保存退出，未重跑旧组动作检查。见 evidence/elemental-ui-layer-20261026.json 和 ELEMENTAL_DEFENSE_VFX.md。本机已安装，早期离线预览ZIP未更新，不要把旧ZIP当本修复。
+
+## 2026-10-26 最新追加：诸神之黄昏后全局慢动作
+
+用户实玩观者，诸神之黄昏后全游戏慢动作，要求取消子弹时间。新增 [WatcherNoBulletTime](../watcher/no-bullet-time/README.md)，已安装。针对当前 WatcherReimagined 1.5.4 的 Fx.BulletTime 入口返回已完成 Task，关闭重塑各牌的全局减速，保留其他画面音效。MeleeAttack 还会为升级牌每段附加全局停顿；使用作者 ExcludedHitStopCards 内存名单排除 WATCHER_RAGNAROK，不改作者磁盘文件、不强锁全局倍率或改 SpeedX 设置。
+
+205625 首次仅拦截重塑，升级牌连续检查失败；205805 setter 追踪定位 MeleeAttack.HitStop.Apply（UpgradeCardHitStopPatch.Postfix）。两控制器交叠可能把对方临时倍率作为恢复值；未重演用户原存档，不声称完整证明原现场的时序。210002 最终无保存批次：1/5倍各普通、升级连续实际出牌，281～309帧全程倍率不变，实际重塑减速调用被拦截，伤害25/36；嵌套减速也不写速度。setter 记录只有夹具主动倍率设置，无第三方全局速度写入。原生退出0，1346个原文件恢复并核对，临时探针移除。证据 evidence/watcher-no-bullet-time-20261026.json。未测菜单退场动画和全部观者卡牌，不算整套 Mod 验收。未推送或发布工坊。
+
+## 2026-10-26 最新追加：腐化人物身份修正
+
+用户肯定了上一轮修复，随后要求魔焰铁甲的腐化巨像从白胡须老人改成铁甲战士本人，并明确**整体色调、画风、动效时长保持不变，只改人物身份**。新增独立 [CorruptionWarriorVfx](../corruption/README.md)，依赖原 IroncladFx。只挂接 Assets.Texture 的单个 body.png 返回值，在内存里局部合成头发/面具/原胡须范围；其余像素仍用使用者原图，不改原作者文件、骨架、动画或时长。内置 ImageGen 最终素材在 corruption/assets。
+
+192537无保存批次：限定区域外像素变化0，1001×1430画布不变，原指向预览入口与实际出牌效果验证通过，原生能力应用，退出码0，记录恢复成功。190706早期夹具因把悬停当预览入口而失败，已记录，不能算通过。不要为该卡顺手改变配色、添加新动效或重做原动画。详细范围见模块 README。
+
+当前本机已安装 CorruptionWarriorVfx，ElementalDefenseVfx 保持启用；探针已移除。精选证据 evidence/corruption-warrior-20261026.json，离线预览包仅在本机 artifacts/corruption-warrior-preview-20261026.zip。尚未推送 GitHub 或发布工坊，待用户实屏评价。
+
+## 2026-10-26 新任务（优先于下面历史打包边界）
+
+用户随后明确要求继续开发火焰屏障与岩石铠甲，见 [当前模块](../elemental/README.md) 和 [验证记录](ELEMENTAL_DEFENSE_VFX.md)。这次获准的是新特效开发及必要验证，没有恢复 unified 整合或旧组回归测试。
+
+本轮结束：已安装 ElementalDefenseVfx **预览版**，临时 ElementalProbe 已移除；测试记录已恢复。六角色基础流程已执行，Silent 冻结替身与 Watcher 数字皮肤的画面缺失已单独修复补测。原创美术仍等用户验收。预览包仅在本机 artifacts/elemental-preview-20261026.zip；没有加入 portable 稳定快照，没有推送或发布工坊。精选非私人证据见 evidence/elemental-vfx-development-20261026.json。
+
+下午追加修复：用户确认铁甲战士举盾等非待机动作掉岩甲，并要求火墙退场过渡。已识别隐藏原网格的动作人物、持续补绑定动作附件、兼容默认 COLOR 材质，并在绘制前更新避免耸肩无视切换时的一帧空窗。火墙改为约0.65秒真实时间淡出。143507批次通过 Ironclad 12项、Silent 7项、Watcher 6项连续帧动作检查及普通/5倍退场检查；已安装修复版、移除探针并自动恢复记录，见 evidence/elemental-motion-fix-20261026.json。最新离线预览包为 artifacts/elemental-preview-20261026-motion-fix.zip，上午包保留作历史。
+
+| 要求 | 当前原则 |
+|---|---|
+| 美术质量 | 用户否定了第一版廉价多边形岩片/火焰；参考魔焰铁甲 Barricade 的素材质量，但不复制或复用其盾牌 |
+| 原创素材 | 已使用内置 ImageGen 生成岩片、岩石表面和火墙帧，保存在 elemental/assets；来源和提示规格见该目录 README |
+| 火墙 | 必须在人物面前、朝向敌人的一侧；用户建议向外移远，给其他 Mod 的贴身盾牌和人物动作留空间 |
+| 反弹 | 敌人每次攻击触发原生反伤时向实际攻击者弹火，多段逐段播放；完全格挡也触发，非攻击不触发 |
+| 岩甲 | 采用真实角色的变形网格与骨骼，不限定战士；必须关注虚影透明、动作替身、皮肤切换与退出恢复 |
+| 共存范围 | 壁垒盾牌和虚影只是用户举例，不能只做几张牌的白名单；按材质、显示所有权和空间留距处理，诚实记录未知边界 |
+
+所有第一版的逻辑通过记录都不等于美术验收。不要把未完成验证或用户否定的画面打包成正式工坊版；不得丢弃下面的原特效优先级与经验。
+
 交接日期：2026-10-25，Asia/Shanghai。用户要求优先把工程上传 GitHub；不要继续在打包任务里擅自扩大整合开发或游戏测试。
 
 ## 现在是什么状态

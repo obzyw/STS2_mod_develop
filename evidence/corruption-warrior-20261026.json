@@ -1,0 +1,30 @@
+{
+  "batch": "corruption-20261026-192537",
+  "artPrompt": "corruption/assets/README.md",
+  "status": "installed-preview",
+  "authorMod": "IroncladFx 1.0.1",
+  "game": "v0.111.0",
+  "imageMode": "built-in ImageGen edit",
+  "date": "2026-10-26",
+  "patchScope": "Single texture-return postfix; original animation, rig, shaders and timing are not patched",
+  "sourceAssetSha256": "8C15D541CACDF323324BCC076C4F183A5C3244F437F75FE5E73088264749A3FC",
+  "playerRecordsRestored": true,
+  "results": [
+    {
+      "id": "head-only-art",
+      "changedPixels": 299144,
+      "changedOutsideHead": 0,
+      "size": "(1001, 1430)"
+    },
+    {
+      "id": "original-preview",
+      "appeared": true,
+      "entry": "IroncladFx.Ready.Show (targeting renderer)"
+    },
+    {
+      "id": "original-play",
+      "powerApplied": true,
+      "animationImplementation": "IroncladFx unchanged; texture postfix only"
+    }
+  ]
+}

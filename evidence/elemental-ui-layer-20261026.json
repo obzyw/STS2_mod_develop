@@ -1,0 +1,58 @@
+{
+  "cases": [
+    {
+      "success": true,
+      "character": "Ironclad",
+      "cases": [
+        {
+          "id": "fire-ui-occlusion",
+          "character": "Ironclad",
+          "skinZ": 100,
+          "fxZ": 0,
+          "menuVisible": true,
+          "opaqueMenuPixel": "(0.09803922, 0.8, 0.2, 1)",
+          "fireAlpha": 1
+        },
+        {
+          "id": "fire-ui-resume",
+          "wallStillActive": true
+        }
+      ],
+      "nativeExitCode": 0
+    },
+    {
+      "success": true,
+      "character": "Watcher",
+      "cases": [
+        {
+          "id": "fire-ui-occlusion",
+          "character": "Watcher",
+          "skinZ": 100,
+          "fxZ": 0,
+          "menuVisible": true,
+          "opaqueMenuPixel": "(0.09803922, 0.8, 0.2, 1)",
+          "fireAlpha": 1
+        },
+        {
+          "id": "fire-ui-resume",
+          "wallStillActive": true
+        }
+      ],
+      "nativeExitCode": 0
+    }
+  ],
+  "change": "Constrain generated VFX to native battle depth below pause/modal UI",
+  "restored": true,
+  "scriptSha256": "01641FE7C3756CE6CA80F8D04A6B411DD6BEEB303D9EA0F78D09ED085716D15A",
+  "module": "ElementalDefenseVfx",
+  "limits": [
+    "No saved run played or abandoned",
+    "Did not activate save-and-quit",
+    "No unrelated motion regression suite rerun"
+  ],
+  "probeRemoved": true,
+  "originalFileCount": 1346,
+  "pluginSha256": "1FF6EA14E14AF154C890F491741628BB9828B3168565D9B6057C870DCC88CFEB",
+  "installed": true,
+  "date": "2026-10-26"
+}

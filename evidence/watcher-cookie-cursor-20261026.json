@@ -1,0 +1,65 @@
+{
+  "nativeExitCode": 0,
+  "success": true,
+  "date": "2026-10-26",
+  "originalFileCount": 1351,
+  "recordsRestored": true,
+  "module": "WatcherCookieCursor",
+  "dependency": "CookieCursor 0.7.0",
+  "installed": true,
+  "cases": [
+    {
+      "id": "cursor-assets",
+      "key": "watcher",
+      "scale": 1,
+      "width": 64,
+      "transparent": true,
+      "clickTilt": true,
+      "hotSpot": "(10, 4)"
+    },
+    {
+      "id": "cursor-assets",
+      "key": "watcher",
+      "scale": 1.5,
+      "width": 96,
+      "transparent": true,
+      "clickTilt": true,
+      "hotSpot": "(15, 6)"
+    },
+    {
+      "id": "cursor-assets",
+      "key": "thewatcher",
+      "scale": 1,
+      "width": 64,
+      "transparent": true,
+      "clickTilt": true,
+      "hotSpot": "(10, 4)"
+    },
+    {
+      "id": "cursor-assets",
+      "key": "thewatcher",
+      "scale": 1.5,
+      "width": 96,
+      "transparent": true,
+      "clickTilt": true,
+      "hotSpot": "(15, 6)"
+    },
+    {
+      "id": "cursor-lifecycle",
+      "actualRunUsedWatcher": true,
+      "otherCharacterRetained": true,
+      "defaultRestored": true
+    }
+  ],
+  "artSha256": "38E58DA3992C1CAF96E8771E3AE4B068ADB1F3A2F886422BFCCCCD2EA70CAD23",
+  "pluginSha256": "112B3AB66DAD518807DF0976EFD35BEF950623FF66E7A7F174225802176279C8",
+  "generationMode": "built-in image_gen",
+  "limits": [
+    "TheWatcher alias assets tested; standalone character launch not tested",
+    "Real multiplayer not tested",
+    "Artwork awaits user acceptance"
+  ],
+  "art": "watcher/cursor/assets/watcher-cookie-v1.png",
+  "probeRemoved": true,
+  "priorFailedBatch": "213257: unrelated optional fifth act had no default; cursor checks not reached"
+}

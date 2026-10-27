@@ -1,0 +1,1 @@
+{"id":"SkinAnimationBridge","name":"三阶段皮肤与人物动画兼容（开发中）","author":"obzyw","version":"0.0.1","has_dll":true,"has_pck":false,"dependencies":["MoreSilentAnimations","YUSilentThreeStages"],"affects_gameplay":false,"min_game_version":"0.111.0"}

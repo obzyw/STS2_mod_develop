@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-26",
+  "module": "WatcherNoBulletTime",
+  "gameVersion": "v0.111.0",
+  "authorVersions": {
+    "MeleeAttack": "1.0.31",
+    "WatcherReimagined": "1.5.4"
+  },
+  "scope": [
+    "Suppress WatcherMod.Vfx.Fx.BulletTime before writes and timers",
+    "Use MeleeAttack ExcludedHitStopCards for WATCHER_RAGNAROK"
+  ],
+  "cases": [
+    {
+      "id": "nested-bullet-time",
+      "speed": 1,
+      "min": 1,
+      "max": 1,
+      "frames": 128
+    },
+    {
+      "id": "nested-bullet-time",
+      "speed": 5,
+      "min": 5,
+      "max": 5,
+      "frames": 129
+    },
+    {
+      "id": "ragnarok",
+      "speed": 1,
+      "upgraded": false,
+      "min": 1,
+      "max": 1,
+      "frames": 281,
+      "suppressed": 1,
+      "damage": 25
+    },
+    {
+      "id": "ragnarok",
+      "speed": 1,
+      "upgraded": true,
+      "min": 1,
+      "max": 1,
+      "frames": 294,
+      "suppressed": 2,
+      "damage": 36
+    },
+    {
+      "id": "ragnarok",
+      "speed": 5,
+      "upgraded": false,
+      "min": 5,
+      "max": 5,
+      "frames": 309,
+      "suppressed": 1,
+      "damage": 25
+    },
+    {
+      "id": "ragnarok",
+      "speed": 5,
+      "upgraded": true,
+      "min": 5,
+      "max": 5,
+      "frames": 305,
+      "suppressed": 2,
+      "damage": 36
+    }
+  ],
+  "success": true,
+  "nativeExitCode": 0,
+  "recordsRestored": true,
+  "originalFileCount": 1346,
+  "probeRemoved": true,
+  "installed": true,
+  "priorFailedBatches": [
+    "205625: upgraded Ragnarok still paused",
+    "205805: setter trace identified MeleeAttack upgrade hit stop"
+  ],
+  "limitations": [
+    "Original saved-run slowdown timing not replayed",
+    "Menu transition animations not separately tested",
+    "All watcher cards not replayed"
+  ],
+  "pluginSha256": "374A3743E65463691F0CDE05032B9B0F0A4A972D04AF012FEDFFBB43AE8099D6"
+}

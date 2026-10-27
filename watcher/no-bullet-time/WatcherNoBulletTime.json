@@ -1,0 +1,1 @@
+{"id":"WatcherNoBulletTime","name":"观者：关闭全局子弹时间","author":"obzyw","version":"0.1.0","has_dll":true,"has_pck":false,"dependencies":["WatcherReimagined"],"affects_gameplay":false,"min_game_version":"0.111.0"}

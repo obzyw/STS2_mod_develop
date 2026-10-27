@@ -5,8 +5,14 @@
 | 入口 | 用途 |
 |---|---|
 | [新会话交接](docs/NEXT_SESSION.md) | 用户要求、全部子任务、开发经验、失败记录和下一步 |
+| [四角色皮肤动作适配](skin-animation/README.md) | 未完成开发稿及回滚入口；全息影像仅编译，禁止作为已验收插件安装 |
+| [火焰屏障与岩石铠甲开发](elemental/README.md) | 新增独立视觉模块，原创素材、角色适配与当前限制；尚待画面验收 |
+| [腐化人物修正](corruption/README.md) | 魔焰铁甲腐化巨像改为战士本人；保留原配色、画风、动画和时长 |
+| [观者慢动作修复](watcher/no-bullet-time/README.md) | 关闭重塑全局子弹时间，并排除诸神之黄昏的额外升级顿帧 |
+| [观者饼干光标](watcher/cursor/README.md) | 按 CookieCursor 风格新增观者头像，保留作者点击倾斜与缩放 |
 | [本机已验证插件](portable/mods) | 四个独立插件的原始验收二进制及神格素材 |
 | [新电脑安装脚本](scripts/Install-Portable.ps1) | 安装已验证快照，按需应用本机会话视觉配置 |
+| [当前猎人恢复入口](docs/SILENT_MIGRATION.md) | 当前版本的位移、完整三方特效优先级及作者开关；新电脑优先用此入口 |
 | [依赖锁定清单](dependencies.lock.json) | 必须另行订阅的原作者 Mod、版本及哈希 |
 | [历史实施交接](docs/HANDOFF.md) | 每组实现与验证细节；当前任务边界以NEXT_SESSION为准 |
 | [精选验证报告](evidence) | 已有通过证据，不含原始日志、存档、账户数据 |

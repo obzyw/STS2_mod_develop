@@ -1,1 +1,1 @@
-{"id":"SilentMovementCompat","name":"猎人位移动画兼容","author":"Local compatibility","version":"0.1.0","has_dll":true,"has_pck":false,"affects_gameplay":false,"dependencies":[{"id":"MeleeAttack"},{"id":"MoreSilentAnimations"}]}
+{"id":"SilentMovementCompat","name":"猎人位移动画兼容","author":"Local compatibility","version":"0.1.1","has_dll":true,"has_pck":false,"affects_gameplay":false,"dependencies":[{"id":"MeleeAttack"},{"id":"MoreSilentAnimations"}]}

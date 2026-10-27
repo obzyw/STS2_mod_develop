@@ -1,0 +1,46 @@
+{
+  "nativeExitCode": 0,
+  "pluginSha256": "21F7DA6776A30E73F3EAFDE4C348704000080797E5461AEF58B67A22C621D3D5",
+  "cause": "Old SilentEffectsCompat absent; MoreSilentAnimations whole-card veto disables SilentFX preview",
+  "recordsRestored": true,
+  "installed": true,
+  "scope": "KnifeTrap only; full historical Silent compatibility not restored",
+  "probeRemoved": true,
+  "originalFileCount": 1349,
+  "success": true,
+  "module": "KnifeTrapStages",
+  "cases": [
+    {
+      "id": "knife-trap-stages",
+      "mode": "base",
+      "preview": "KnifeTrapHeld",
+      "counts": {
+        "KnifeTrapVisual..ctor": 3
+      },
+      "damage": 12,
+      "independentShivUnchanged": true
+    },
+    {
+      "id": "knife-trap-stages",
+      "mode": "upgraded",
+      "preview": "KnifeTrapHeld",
+      "counts": {
+        "KnifeTrapVisual..ctor": 3
+      },
+      "damage": 18,
+      "independentShivUnchanged": true
+    },
+    {
+      "id": "knife-trap-stages",
+      "mode": "fallback",
+      "preview": "KnifeTrapHeld",
+      "counts": {
+        "KnifeTrapFx.OnPlay": 1,
+        "ShivFx.OnShivHit": 3
+      },
+      "damage": 12,
+      "independentShivUnchanged": true
+    }
+  ],
+  "date": "2026-10-27"
+}

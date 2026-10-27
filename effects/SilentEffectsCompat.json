@@ -1,1 +1,1 @@
-{"id":"SilentEffectsCompat","name":"猎人特效与开关兼容","author":"Local compatibility","version":"0.1.1","has_dll":true,"has_pck":false,"affects_gameplay":false,"dependencies":[{"id":"MeleeAttack"},{"id":"MoreSilentAnimations"},{"id":"SilentFX"}]}
+{"id":"SilentEffectsCompat","name":"猎人特效与开关兼容","author":"Local compatibility","version":"0.1.2","has_dll":true,"has_pck":false,"affects_gameplay":false,"dependencies":[{"id":"MeleeAttack"},{"id":"MoreSilentAnimations"},{"id":"SilentFX"}]}

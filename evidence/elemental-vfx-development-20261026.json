@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-26",
+  "limitations": [
+    "No multiplayer coverage",
+    "No exhaustive custom skin or shader coverage",
+    "Engine resource leak warnings remain on exit in the multi-mod fixture",
+    "Silent frozen-mesh and Watcher numeric-skin visual failures were found after initial logical checks, then fixed and rechecked"
+  ],
+  "records_restored": true,
+  "status": "development-preview-awaiting-user-visual-review",
+  "game": "v0.111.0",
+  "assets_sha256": {
+    "stone-surface-v2.png": "1B2E420CD59A2D08EC40D9B817C4AD3FF3D27C8DC5A2FE58DA584EC5BAF7F21C",
+    "fire-wall-v3.png": "C95E241CFD25427295A0DE73B364B1F310A5E71F3844580E6D70DA3D84AB282A",
+    "stone-fragments-v2.png": "56CC123CC58C372BECE8ACF4199A50DDAEDB0B9138803FC6BC47B9230955B757"
+  },
+  "coverage": [
+    {
+      "coated_surfaces": 23,
+      "character": "Ironclad",
+      "cases": [
+        "stone",
+        "material-composition",
+        "fire",
+        "expired"
+      ],
+      "reflection_damage": 8,
+      "batch": "20261026-103432",
+      "fixture_success": true,
+      "screenshots_reviewed": true,
+      "tested_script_sha256": "f3744d6fa50b231ab43b53fbf92e6d80a4438d5763c44e7488f5079c54f46e94"
+    },
+    {
+      "coated_surfaces": 13,
+      "character": "Silent",
+      "cases": [
+        "stone",
+        "display-lease",
+        "fire",
+        "expired"
+      ],
+      "reflection_damage": 8,
+      "batch": "20261026-104248",
+      "fixture_success": true,
+      "screenshots_reviewed": true,
+      "tested_script_sha256": "2cdd5f618993a38c38e7485e5203f25ba5b105d919deb7b02678bb896ef8bf91"
+    },
+    {
+      "coated_surfaces": 16,
+      "character": "Regent",
+      "cases": [
+        "stone",
+        "fire",
+        "expired"
+      ],
+      "reflection_damage": 8,
+      "batch": "20261026-103432",
+      "fixture_success": true,
+      "screenshots_reviewed": true,
+      "tested_script_sha256": "f3744d6fa50b231ab43b53fbf92e6d80a4438d5763c44e7488f5079c54f46e94"
+    },
+    {
+      "coated_surfaces": 19,
+      "character": "Necrobinder",
+      "cases": [
+        "stone",
+        "fire",
+        "expired"
+      ],
+      "reflection_damage": 8,
+      "batch": "20261026-103432",
+      "fixture_success": true,
+      "screenshots_reviewed": true,
+      "tested_script_sha256": "f3744d6fa50b231ab43b53fbf92e6d80a4438d5763c44e7488f5079c54f46e94"
+    },
+    {
+      "coated_surfaces": 26,
+      "character": "Defect",
+      "cases": [
+        "stone",
+        "fire",
+        "expired"
+      ],
+      "reflection_damage": 8,
+      "batch": "20261026-103432",
+      "fixture_success": true,
+      "screenshots_reviewed": true,
+      "tested_script_sha256": "f3744d6fa50b231ab43b53fbf92e6d80a4438d5763c44e7488f5079c54f46e94"
+    },
+    {
+      "coated_surfaces": 10,
+      "character": "Watcher",
+      "cases": [
+        "stone",
+        "fire",
+        "expired"
+      ],
+      "reflection_damage": 8,
+      "batch": "20261026-104659",
+      "fixture_success": true,
+      "screenshots_reviewed": true,
+      "tested_script_sha256": "cd319ba2ff2252e664676373046ec5f49d30e9423b7d514493084b7c05056a0b"
+    }
+  ]
+}

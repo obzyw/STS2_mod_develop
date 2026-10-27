@@ -20,7 +20,7 @@ public static class Entry
         var expected = new Dictionary<string, string>
         {
             ["MeleeAttack"] = "7BB0DE0F078D97EDFEBB0D4494B5B0A1224CF75DA940971EC6106870F4AF663B",
-            ["MoreSilentAnimations"] = "95F6E7A7C003FBA2B9FA1C64E470373DCBF349100BB5EB5C0173B7ED5C3D23AC"
+            ["MoreSilentAnimations"] = "1A86D4BFB5AA9260BF3F22E188DD50D43B9C2ACA39929A20FCC3D2C315956E41"
         };
         var assemblies = AppDomain.CurrentDomain.GetAssemblies();
         foreach (var pair in expected)

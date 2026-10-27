@@ -1,0 +1,175 @@
+{
+  "installed": true,
+  "cases": [
+    {
+      "id": "shared-card-routes",
+      "routes": [
+        {
+          "card": "LeadingStrike",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "Slice",
+          "moreSilentAllowed": true,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "PreciseCut",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "Finisher",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "EchoingSlash",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "Predator",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "Pounce",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "PoisonedStab",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "Neutralize",
+          "moreSilentAllowed": true,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "Assassinate",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "Dash",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "SuckerPunch",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "Backstab",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "Murder",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "Suppress",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "TheHunt",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "BubbleBubble",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "DeadlyPoison",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "BouncingFlask",
+          "moreSilentAllowed": true,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "Shiv",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "Snakebite",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "Tracking",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "KnifeTrap",
+          "moreSilentAllowed": true,
+          "silentFxEnabled": true
+        },
+        {
+          "card": "StormOfSteel",
+          "moreSilentAllowed": false,
+          "silentFxEnabled": true
+        }
+      ]
+    },
+    {
+      "id": "actual-playback",
+      "card": "PoisonedStab",
+      "counts": {
+        "PoisonedStabFx.OnHit": 1
+      }
+    },
+    {
+      "id": "actual-playback",
+      "card": "Slice",
+      "counts": {
+        "ActorPresentation.Begin": 1
+      }
+    },
+    {
+      "id": "knife-trap-stages",
+      "mode": "base",
+      "preview": "KnifeTrapHeld",
+      "counts": {
+        "KnifeTrapVisual..ctor": 3
+      },
+      "damage": 12,
+      "independentShivUnchanged": true
+    }
+  ],
+  "module": "SilentEffectsCompat",
+  "redundantKnifeTrapStagesArchived": true,
+  "priority": [
+    "SilentFX",
+    "MoreSilentAnimations",
+    "MeleeAttack"
+  ],
+  "date": "2026-10-27",
+  "probeRemoved": true,
+  "success": true,
+  "pluginSha256": "B67FE6E3226418D1A8D1352DD638342FCFADF17F92DAA8250C9533B9569919E5",
+  "version": "0.1.2",
+  "limits": [
+    "24 shared-card permission routes checked, three actual card plays",
+    "No historical full suite repeated",
+    "GrandFinale implementation retained; actual cast not replayed this batch",
+    "No real multiplayer test"
+  ],
+  "nativeExitCode": 0,
+  "recordsRestored": true,
+  "originalFileCount": 1360
+}
