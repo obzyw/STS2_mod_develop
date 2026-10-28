@@ -5,6 +5,7 @@ param(
     [switch]$MotionAudit,
     [switch]$UiLayerAudit,
     [switch]$FullSkinAudit,
+    [switch]$LeanSkinFixture,
     [string[]]$SkinCards=@(),
     [string[]]$SkinStages=@('classic','normal','hurt','critical'),
     [ValidateSet('Elemental','Corruption','WatcherTime','WatcherCursor','KnifeTrap','SilentMovement','SilentEffects','SkinAnimation')][string]$Feature='Elemental'
@@ -55,6 +56,26 @@ $variables['STS2_SKIN_FULL_AUDIT']=$(if($FullSkinAudit){'1'}else{'0'})
 $variables['STS2_SKIN_ONLY_CARDS']=($SkinCards -join ',')
 $variables['STS2_SKIN_STAGES']=($SkinStages -join ',')
 try {
+    if($LeanSkinFixture){
+        if($Feature -ne 'SkinAnimation'){throw 'LeanSkinFixture is limited to the skin fixture.'}
+        $allowed=@('SkinAnimationBridge','ElementalProbe','ElementalDefenseVfx','ShieldOnly','MoreDefectAnimations','MoreSilentAnimations','MoreNecrobinderAnimations','YUIroncladThreeStages','YUDefectThreeStages','YUSilentThreeStages','YUNecrobinderThreeStages','ModConfig','BonModConfig','BaseLib','STS2-RitsuLib','MeleeAttack','SilentMovementCompat','SilentEffectsCompat','SilentFX')
+        $workshop=Join-Path (Split-Path (Split-Path $GamePath -Parent) -Parent) 'workshop/content/2868840'
+        $entries=@()
+        foreach($source in @(@{path=$workshop;kind='steam_workshop'},@{path=(Join-Path $GamePath 'mods');kind='mods_directory'})){
+            if(-not(Test-Path -LiteralPath $source.path)){continue}
+            foreach($directory in Get-ChildItem -LiteralPath $source.path -Directory){
+                foreach($manifest in Get-ChildItem -LiteralPath $directory.FullName -File -Filter '*.json'){
+                    try{$meta=Get-Content -LiteralPath $manifest.FullName -Raw|ConvertFrom-Json}catch{continue}
+                    if($meta.id){$entries+=@{id=$meta.id;is_enabled=($meta.id -in $allowed);source=$source.kind}}
+                }
+            }
+        }
+        foreach($settingsFile in Get-ChildItem -LiteralPath $userRoot -Recurse -File -Filter 'settings.save'){
+            $settings=Get-Content -LiteralPath $settingsFile.FullName -Raw|ConvertFrom-Json
+            if($settings.mod_settings){$settings.mod_settings.mod_list=$entries;[IO.File]::WriteAllText($settingsFile.FullName,($settings|ConvertTo-Json -Depth 100),(New-Object Text.UTF8Encoding($false)))}
+        }
+        @{scope='isolated skin fixture; not full installed-mod coexistence';allowed=$allowed}|ConvertTo-Json -Depth 4|Set-Content -LiteralPath (Join-Path $output 'fixture-profile.json')
+    }
     & dotnet build (Join-Path $root "$featureFolder/$plugin.csproj") -c Release "-p:GamePath=$GamePath" --nologo
     if($LASTEXITCODE -ne 0){throw 'Effect build failed.'}
     & dotnet build (Join-Path $root 'verification/elemental/ElementalProbe.csproj') -c Release "-p:GamePath=$GamePath" --nologo
@@ -62,7 +83,7 @@ try {
     foreach($name in $testMods){New-Item -ItemType Directory -Path (Join-Path $GamePath "mods/$name") | Out-Null}
     $runtimeFiles=@("$featureFolder/bin/Release/net9.0/$plugin.dll","$featureFolder/$plugin.json")
     if($Feature -eq 'Elemental'){$runtimeFiles+=@('elemental/DefenseFx.gd','elemental/StoneCoat.gdshader','elemental/FlameTrail.gdshader')}
-    if($Feature -eq 'SkinAnimation'){$runtimeFiles+=@('skin-animation/SilentPose.gd','skin-animation/NecroPose.gd','skin-animation/HologramPose.gd')}
+    if($Feature -eq 'SkinAnimation'){$runtimeFiles+=@('skin-animation/SilentPose.gd','skin-animation/NecroPose.gd','skin-animation/HologramPose.gd','skin-animation/IroncladPose.gd','skin-animation/TurboSkin.gd')}
     foreach($file in $runtimeFiles){
         Copy-Item -LiteralPath (Join-Path $root $file) -Destination (Join-Path $GamePath "mods/$plugin")
     }

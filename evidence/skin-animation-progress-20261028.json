@@ -1,0 +1,563 @@
+{
+  "date": "2026-10-28",
+  "status": "development-not-deployed",
+  "scope": "Targeted skin adaptation observations; not full installed-mod coexistence or art acceptance",
+  "batches": [
+    {
+      "cases": [
+        {
+          "stage": "classic",
+          "card": "Hologram",
+          "actualResource": "res://YUDefectThreeStages/characters/defect/classic/normal/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 173,
+          "guardFrames": 0,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeSpineValues..ctor": 1,
+            "NativeHologram..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "classic",
+          "card": "SignalBoost",
+          "actualResource": "res://YUDefectThreeStages/characters/defect/classic/normal/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 0,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeSpineValues..ctor": 1,
+            "NativeSignalBoost..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "classic",
+          "card": "Turbo",
+          "actualResource": "res://YUDefectThreeStages/characters/defect/classic/normal/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 0,
+          "turboFrames": 162,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeTurbo..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "normal",
+          "card": "Hologram",
+          "actualResource": "res://YUDefectThreeStages/characters/defect/normal/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 179,
+          "guardFrames": 0,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeSpineValues..ctor": 1,
+            "NativeHologram..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "normal",
+          "card": "SignalBoost",
+          "actualResource": "res://YUDefectThreeStages/characters/defect/normal/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 0,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeSpineValues..ctor": 1,
+            "NativeSignalBoost..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "normal",
+          "card": "Turbo",
+          "actualResource": "res://YUDefectThreeStages/characters/defect/normal/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 0,
+          "turboFrames": 163,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeTurbo..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "hurt",
+          "card": "Hologram",
+          "actualResource": "res://YUDefectThreeStages/characters/defect/hurt/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 177,
+          "guardFrames": 0,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeSpineValues..ctor": 1,
+            "NativeHologram..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "hurt",
+          "card": "SignalBoost",
+          "actualResource": "res://YUDefectThreeStages/characters/defect/hurt/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 0,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeSpineValues..ctor": 1,
+            "NativeSignalBoost..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "hurt",
+          "card": "Turbo",
+          "actualResource": "res://YUDefectThreeStages/characters/defect/hurt/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 0,
+          "turboFrames": 153,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeTurbo..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "critical",
+          "card": "Hologram",
+          "actualResource": "res://YUDefectThreeStages/characters/defect/critical/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 179,
+          "guardFrames": 0,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeSpineValues..ctor": 1,
+            "NativeHologram..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "critical",
+          "card": "SignalBoost",
+          "actualResource": "res://YUDefectThreeStages/characters/defect/critical/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 0,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeSpineValues..ctor": 1,
+            "NativeSignalBoost..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "critical",
+          "card": "Turbo",
+          "actualResource": "res://YUDefectThreeStages/characters/defect/critical/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 0,
+          "turboFrames": 164,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeTurbo..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        }
+      ],
+      "originalFileCount": 1360,
+      "nativeExitCode": 0,
+      "batch": "skinanimation-20261028-114041",
+      "role": "Defect",
+      "fixtureCompleted": true,
+      "testedBridgeSha256": "91200C0195A49619A3B410CC4FD5447D90859742CC9C14A54A930171F55AC9A9",
+      "profile": "LeanSkinFixture",
+      "restored": true
+    },
+    {
+      "cases": [
+        {
+          "stage": "classic",
+          "card": "DefendIronclad",
+          "actualResource": "res://YUIroncladThreeStages/characters/ironclad/classic/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 39,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeShieldPresentation..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "classic",
+          "card": "Impervious",
+          "actualResource": "res://YUIroncladThreeStages/characters/ironclad/classic/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 77,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeImperviousPresentation..ctor": 2
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "classic",
+          "card": "DemonForm",
+          "actualResource": "res://YUIroncladThreeStages/characters/ironclad/classic/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 0,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeWeightedSurface..ctor": 2,
+            "NativeDemonHorns..ctor": 1,
+            "NativeDemonWings..ctor": 1,
+            "NativeDemonEyes..ctor": 1,
+            "NativeFeedDemon..ctor": 2
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "normal",
+          "card": "DefendIronclad",
+          "actualResource": "res://YUIroncladThreeStages/characters/ironclad/normal/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 42,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeShieldPresentation..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "normal",
+          "card": "Impervious",
+          "actualResource": "res://YUIroncladThreeStages/characters/ironclad/normal/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 76,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeImperviousPresentation..ctor": 2
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "normal",
+          "card": "DemonForm",
+          "actualResource": "res://YUIroncladThreeStages/characters/ironclad/normal/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 0,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeWeightedSurface..ctor": 2,
+            "NativeDemonHorns..ctor": 1,
+            "NativeDemonWings..ctor": 1,
+            "NativeDemonEyes..ctor": 1,
+            "NativeFeedDemon..ctor": 2
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "hurt",
+          "card": "DefendIronclad",
+          "actualResource": "res://YUIroncladThreeStages/characters/ironclad/hurt/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 40,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeShieldPresentation..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "hurt",
+          "card": "Impervious",
+          "actualResource": "res://YUIroncladThreeStages/characters/ironclad/hurt/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 75,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeImperviousPresentation..ctor": 2
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "hurt",
+          "card": "DemonForm",
+          "actualResource": "res://YUIroncladThreeStages/characters/ironclad/hurt/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 0,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeWeightedSurface..ctor": 2,
+            "NativeDemonHorns..ctor": 1,
+            "NativeDemonWings..ctor": 1,
+            "NativeDemonEyes..ctor": 1,
+            "NativeFeedDemon..ctor": 2
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "critical",
+          "card": "DefendIronclad",
+          "actualResource": "res://YUIroncladThreeStages/characters/ironclad/critical/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 40,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeShieldPresentation..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "critical",
+          "card": "Impervious",
+          "actualResource": "res://YUIroncladThreeStages/characters/ironclad/critical/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 76,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeImperviousPresentation..ctor": 2
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "critical",
+          "card": "DemonForm",
+          "actualResource": "res://YUIroncladThreeStages/characters/ironclad/critical/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 0,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeWeightedSurface..ctor": 2,
+            "NativeDemonHorns..ctor": 1,
+            "NativeDemonWings..ctor": 1,
+            "NativeDemonEyes..ctor": 1,
+            "NativeFeedDemon..ctor": 2
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        }
+      ],
+      "originalFileCount": 1360,
+      "nativeExitCode": 0,
+      "batch": "skinanimation-20261028-114041",
+      "role": "Ironclad",
+      "fixtureCompleted": true,
+      "testedBridgeSha256": "91200C0195A49619A3B410CC4FD5447D90859742CC9C14A54A930171F55AC9A9",
+      "profile": "LeanSkinFixture",
+      "restored": true
+    },
+    {
+      "cases": [
+        {
+          "stage": "classic",
+          "card": "FlakCannon",
+          "actualResource": "res://YUDefectThreeStages/characters/defect/classic/normal/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 0,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeSpineValues..ctor": 1,
+            "NativeFlak..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "normal",
+          "card": "FlakCannon",
+          "actualResource": "res://YUDefectThreeStages/characters/defect/normal/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 0,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeSpineValues..ctor": 1,
+            "NativeFlak..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "hurt",
+          "card": "FlakCannon",
+          "actualResource": "res://YUDefectThreeStages/characters/defect/hurt/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 0,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeSpineValues..ctor": 1,
+            "NativeFlak..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        },
+        {
+          "stage": "critical",
+          "card": "FlakCannon",
+          "actualResource": "res://YUDefectThreeStages/characters/defect/critical/rig.tres",
+          "displayFrames": 0,
+          "hologramFrames": 0,
+          "guardFrames": 0,
+          "turboFrames": 0,
+          "wrongSkin": 0,
+          "duplicates": 0,
+          "starts": 0,
+          "constructors": {
+            "NativeSpineValues..ctor": 1,
+            "NativeFlak..ctor": 1
+          },
+          "bodyAlpha": 1,
+          "note": "Observation only; constructor presence is not visual acceptance"
+        }
+      ],
+      "originalFileCount": 1360,
+      "nativeExitCode": 0,
+      "batch": "skinanimation-20261028-114502",
+      "role": "Defect",
+      "fixtureCompleted": true,
+      "testedBridgeSha256": "53D4C3D7BD0A43E770C0FDD2BDAD12180C38C1FE7F92BBA63C431CC4570F1CEE",
+      "profile": "LeanSkinFixture",
+      "restored": true
+    }
+  ],
+  "limitations": [
+    "SignalBoost/DemonForm/FlakCannon constructor counts do not establish all animation phases or hit frames",
+    "Final defensive transparency-follow change: build and script parse only, no intangible-power fixture",
+    "Supercritical/Modded/BulkUp/ConsumingShadow and remaining Ironclad/Necrobinder coverage unfinished"
+  ],
+  "failures": [
+    {
+      "batch": "111701",
+      "reason": "resource allocation failed during full-mod startup before fixture"
+    },
+    {
+      "batch": "112345",
+      "reason": "lean fixture omitted probe dependency; timed out; dependency added"
+    }
+  ],
+  "userProgramsClosed": false
+}

@@ -47,6 +47,8 @@ internal static class DefectHeadBridge
     }
     private static HarmonyMethod H(string name)=>new(typeof(DefectHeadBridge),name);
     internal static void AllowBinding(Harmony harmony,string session)=>harmony.Patch(AccessTools.Method(T(session),"RefreshBinding"),prefix:H(nameof(Begin)),postfix:H(nameof(End)),finalizer:H(nameof(End)));
+    internal static void AllowStart(Harmony harmony,string session)=>harmony.Patch(AccessTools.Method(T(session),"Start"),prefix:H(nameof(Begin)),postfix:H(nameof(End)),finalizer:H(nameof(End)));
+    internal static void AllowMethod(Harmony harmony,string session,string method)=>harmony.Patch(AccessTools.Method(T(session),method),prefix:H(nameof(Begin)),postfix:H(nameof(End)),finalizer:H(nameof(End)));
     private static void Begin(out int __state){__state=scope.Value;scope.Value++;}
     private static void End(int __state)=>scope.Value=__state;
     private static bool GuardGet(Node2D sprite,ref object? __result)

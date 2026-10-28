@@ -8,8 +8,6 @@ namespace SkinAnimationBridge;
 
 internal static class DefectHologramBridge
 {
-    private static readonly AsyncLocal<int> scope=new();
-    private static readonly ConditionalWeakTable<object,Node2D> maps=new();
     private static readonly ConditionalWeakTable<object,Capture> captures=new();
     private static GDScript script=null!;
     private static Type T(string n)=>AccessTools.TypeByName("MoreDefectAnimations."+n)!;
@@ -22,25 +20,11 @@ internal static class DefectHologramBridge
         script=new GDScript{SourceCode=File.ReadAllText(Path.Combine(folder,"HologramPose.gd"))};
         if(script.Reload()!=Error.Ok)throw new InvalidDataException("Hologram skin snapshot script failed to compile.");
         DefectHeadBridge.AllowBinding(harmony,"HologramSession");
-        harmony.Patch(AccessTools.Method(T("HologramSession"),"RefreshBinding"),prefix:H(nameof(Begin)),postfix:H(nameof(End)),finalizer:H(nameof(End)));
-        harmony.Patch(AccessTools.Constructor(T("CharacterSurfaceMaps"),[typeof(Node2D)]),postfix:H(nameof(MapCreated)));
-        harmony.Patch(AccessTools.Method(T("CharacterSurfaceMaps"),"Refresh"),prefix:H(nameof(MapRefresh)));
+        DefectHeadBridge.AllowStart(harmony,"HologramSession");
         harmony.Patch(AccessTools.Constructor(T("HologramBodySource"),[typeof(Node2D),typeof(Node)]),postfix:H(nameof(SourceCreated)));
         harmony.Patch(AccessTools.Method(T("HologramBodySource"),"Capture"),prefix:H(nameof(Snapshot)));
         harmony.Patch(AccessTools.Method(T("HologramBodySource"),"Delayed"),prefix:H(nameof(Delayed)));
         harmony.Patch(AccessTools.Method(T("HologramBodySource"),"Dispose"),postfix:H(nameof(Disposed)));
-    }
-    private static void Begin(out int __state){__state=scope.Value;scope.Value++;}
-    private static void End(int __state)=>scope.Value=__state;
-    private static void MapCreated(object __instance,Node2D body){if(scope.Value>0&&Selected(body))maps.Add(__instance,body);}
-    private static bool MapRefresh(object __instance)
-    {
-        var body=(Node2D)F(__instance,"_body");
-        if(!maps.TryGetValue(__instance,out _)&&!(scope.Value>0&&Selected(body)))return true;
-        var rect=body.Call("get_skeleton").AsGodotObject().Call("get_bounds").AsRect2();
-        AccessTools.Property(__instance.GetType(),"Rect").SetValue(__instance,rect);
-        AccessTools.Property(__instance.GetType(),"Frame").SetValue(__instance,Transform2D.Identity);
-        return false;
     }
     private static void SourceCreated(object __instance,Node2D body){if(Selected(body))captures.Add(__instance,new Capture(__instance,body));}
     private static bool Snapshot(object __instance,double time)

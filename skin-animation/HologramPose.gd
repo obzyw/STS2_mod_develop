@@ -66,3 +66,24 @@ func release():
     if is_instance_valid(sprite): sprite.queue_free()
     sprite = null
     source = null
+
+func mask(snapshot, transform, group, material):
+    show_pose(snapshot,transform)
+    sprite.set_normal_material(material)
+    var order = skeleton.get_draw_order()
+    var head_at = -1
+    for i in order.size():
+        if order[i].get_data().get_name() == "11": head_at = i
+    for i in order.size():
+        var slot = order[i]
+        var name = slot.get_data().get_name()
+        var bone = slot.get_bone().get_data().get_bone_name()
+        var keep = true
+        if group == "head": keep = name == "11"
+        elif group == "head-neck": keep = bone == "7"
+        elif group == "front" or group == "ice-front": keep = i > head_at
+        elif group == "ice": keep = false
+        elif group == "right-arm": keep = bone in ["13","3","9"]
+        elif group == "left-arm": keep = bone in ["22","15","24"]
+        if not keep: slot.set_attachment(null)
+    sprite.update_skeleton(0.0)

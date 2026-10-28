@@ -32,8 +32,13 @@ public static class Entry
             harmony.Patch(AccessTools.Constructor(AccessTools.TypeByName("MoreSilentAnimations.SnakeGeometry"),[typeof(string)]),postfix:new HarmonyMethod(typeof(Entry),nameof(SnakeReference)));
         }
         DefectHeadBridge.Install(harmony);
+        DefectSurfaceBridge.Install(harmony,folder);
         DefectHologramBridge.Install(harmony,folder);
+        DefectTurboBridge.Install(harmony,folder);
+        DefectFlakBridge.Install(harmony);
         NecroPoseBridge.Install(harmony,folder);
+        IroncladGuardBridge.Install(harmony,folder);
+        IroncladAccessoryBridge.Install(harmony);
         GD.Print("[SkinAnimationBridge] YU pose and head bridges loaded (development).");
         }
         catch(Exception error)
